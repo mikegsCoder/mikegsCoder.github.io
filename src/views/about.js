@@ -38,7 +38,7 @@ const timelineCard = (period) => html`
         ${period.activities
             .map(x => html`<p class="h6 text-muted mb-1 mb-lg-1">- ${x}</p>`)}
 
-        <img src="img/${period.image}" class="card-img mb-1 mb-lg-1" alt="Hello Programming">
+        <img src=${period.image} class="card-img mb-1 mb-lg-1" alt="Hello Programming">
     </div>
 </div>`;
 
@@ -70,7 +70,7 @@ const timeline = [
         date: 'September 2020',
         activities: ['Started a free programming basics course in C# out of curiosity. I was attracted by programming and I foud I am good at it and I like it!',
             'Hello World!'],
-        image: 'hello-world.jpg'
+        image: "../img/hello-world.jpg"
     },
     {
         date: '2021',
@@ -82,7 +82,7 @@ const timeline = [
             'Data Structures Advanced (with C#)',
             'MS SQL Server',
             'Entity Framework Core'],
-        image: 'learning-coding.jpg'
+        image: "../img/learning-coding.jpg"
     },
     {
         date: '2022',
@@ -90,7 +90,7 @@ const timeline = [
             'Algorithms Advanced with C#',
             'Java Script Advanced',
             'Java Script Applications'],
-        image: 'coding-1.jpg'
+        image: "../img/coding-1.jpg"
     }
 ];
 
