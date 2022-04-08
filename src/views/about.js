@@ -38,7 +38,7 @@ const timelineCard = (period) => html`
         ${period.activities
             .map(x => html`<p class="h6 text-muted mb-1 mb-lg-1">- ${x}</p>`)}
 
-        <img src="../../img/${period.image}" class="card-img mb-1 mb-lg-1" alt="Hello Programming">
+        <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1" alt="Hello Programming">
     </div>
 </div>`;
 
