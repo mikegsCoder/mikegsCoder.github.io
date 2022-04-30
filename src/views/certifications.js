@@ -18,7 +18,7 @@ const certificateCard = (certificate) => html`
     <span class="fa-li"><i class="fas fa-trophy text-warning"></i> </span>
     <a href=${certificate.url} target="blank">
         ${certificate.name}</a> -
-    Issued ${certificate.date} by Software University
+    Issued ${certificate.date} by Software University.
 </li>`;
 
 export async function certificationsPage(ctx) {
