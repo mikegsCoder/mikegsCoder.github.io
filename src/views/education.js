@@ -48,7 +48,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                         <div class="mb-3">
                             <span class="text-primary">1991 - 1996</span>
                         </div>
-                        <p>Average grade: <b>5.50</b></p>
+                        <!-- <p>Average grade: <b>5.50</b></p> -->
                         <div>Electrical Engineer</div>
                         <p>specialty: Electrical power plants, networks and systems</p>
                         <p>
