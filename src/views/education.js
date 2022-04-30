@@ -1,6 +1,6 @@
 import { html } from '../lib.js';
 
-const certificationsTemplate = (csCourses, jsCourses, tuCourses) => html`
+const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
 <section class="resume-section" id="education" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2>Education</h2>
@@ -43,7 +43,8 @@ const certificationsTemplate = (csCourses, jsCourses, tuCourses) => html`
                 <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Technical University - Varna</h3>
+                        <h3 class="mb-0">Technical University - Varna(<a href="https://www1.tu-varna.bg/tu-varna/"
+                                target="blank">tu-varna.bg</a>)</h3>
                         <div class="mb-3">
                             <span class="text-primary">1991 - 1996</span>
                         </div>
@@ -80,7 +81,7 @@ const educationCardTU = (course) => html`
 <span><i class="fas fa-check"></i> ${course}</span>`;
 
 export async function educationPage(ctx) {
-    ctx.render(certificationsTemplate(csCourses.reverse(), jsCourses.reverse(), tuCourses));
+    ctx.render(educationTemplate(csCourses.reverse(), jsCourses.reverse(), tuCourses));
 };
 
 const csCourses = [

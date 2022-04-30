@@ -7,7 +7,8 @@ const aboutTemplate = (timeline, sentence, socialIcons) => html`
             Mihail <span class="text-primary">Sidov</span>
         </h1>
         <div class="subheading mb-5" href="https://softuni.bg/">
-            Student at SoftUni
+            Student at SoftUni (<a href="https://softuni.bg/"
+            target="blank">softuni.bg</a>)
         </div>
 
         <!-- Timeline -->
