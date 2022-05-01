@@ -14,7 +14,6 @@ const workplacePreview = (workplace) => html`
     ${workplace.url.length > 0
         ? html`(<a href="${workplace.url}" target="blank">eso.bg</a>)`
         : nothing}
-
     ${workplace.period.length > 0
         ? html`- <b><span class="text-primary">${workplace.period}</span></b>`
         : nothing}
@@ -36,9 +35,7 @@ const rolePreview = (role) => html`
         </p>
         <div class="collapse" id="${role.identification}">
             <div class="card card-body text-left mt-3" style="font-size: 13px;">
-
                 ${role.responsibilities.map(responsibilitiesPreview)}
-
             </div>
         </div>
     </div>
@@ -66,7 +63,7 @@ const workplaces = [
                 identification: 'rpev',
                 startDate: 'March 2003',
                 endDate: 'Present',
-                period: 'Almost 20 yrs',
+                period: '', // period: 'Almost 20 yrs',
                 responsibilities: [
                     'Setting up and maintenance of relay protection and automation devices in electrical substations',
                     'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
@@ -78,10 +75,10 @@ const workplaces = [
         ],
         startDate: 'March 2003',
         endDate: 'Present',
-        period: 'Almost 20 yrs'
+        period: '' // period: 'Almost 20 yrs'
     },
     {
-        name: 'Electricity Supply Services - Targovishte, Bulgaria',
+        name: 'Electricity Supply Company - Targovishte, Bulgaria',
         url: '',
         roles: [
             {
@@ -89,7 +86,7 @@ const workplaces = [
                 identification: 'rpet',
                 startDate: 'October 1998',
                 endDate: 'March 2003',
-                period: '4 yr 5 mos',
+                period: '', // period: '4 yrs 5 mos',
                 responsibilities: [
                     'Setting up and maintenance of relay protection and automation devices in electrical substations',
                     'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
@@ -103,7 +100,7 @@ const workplaces = [
                 identification: 'ot',
                 startDate: 'October 1997',
                 endDate: 'October 1998',
-                period: '1 yr',
+                period: '', // period: '1 yr',
                 responsibilities: [
                     'Technical servicing of high voltage switchgears',
                     'Manipulations in high voltage electrical switchyards such as switch on/off and change the operating mode of different facilities and devices'
@@ -112,6 +109,6 @@ const workplaces = [
         ],
         startDate: 'October 1997',
         endDate: 'March 2003',
-        period: '5 yr 5 mos'
+        period: '' // period: '5 yr 5 mos'
     }
 ];
