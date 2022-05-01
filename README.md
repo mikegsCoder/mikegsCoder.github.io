@@ -7,7 +7,11 @@ My resume as Single Page Application.
 
 ### 🛠️ Technologies Used : ###
 ✔️ HTML5
+
 ✔️ CSS
+
 ✔️ JS
+
 ✔️ Lit-html
+
 ✔️ Page
