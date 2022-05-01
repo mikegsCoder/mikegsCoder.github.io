@@ -5,7 +5,7 @@ My resume as Single Page Application.
 ### :link: GitHub Pages Link: 
 :point_right:  https://mikegscoder.github.io/
 
-### 🛠️ Technologies Used : ##
+### 🛠️ Technologies Used : ###
 ✔️ HTML5
 ✔️ CSS
 ✔️ JS
