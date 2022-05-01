@@ -6,12 +6,8 @@ My resume as Single Page Application.
 :point_right:  https://mikegscoder.github.io/
 
 ### 🛠️ Technologies Used : ###
-✔️ HTML5
-
-✔️ CSS
-
-✔️ JS
-
-✔️ Lit-html
-
-✔️ Page
+- HTML5
+- CSS
+- JS
+- Lit-html
+- Page
