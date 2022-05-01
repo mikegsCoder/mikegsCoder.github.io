@@ -19,13 +19,10 @@ const aboutTemplate = (timeline, sentence, socialIcons) => html`
                 </div>
             </div>
         </div>
-
-        ${sentenceTemplate(sentence)}
-
+            ${sentenceTemplate(sentence)}
         <div class="social-icons">
             ${socialIcons.map(socialIconsCard)}
         </div>
-
     </div>
 </section>
 <hr class="m-0" />`;
@@ -35,13 +32,12 @@ const timelineCard = (period) => html`
     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top">
         <div class="inner-circle"></div>
         <p class="h4 mt-3 mb-1">${period.date}</p>
-
         ${period.activities
             .map(x => x == 'Hello World!'
                 ? html`<p class="h5 text-muted mb-1 mb-lg-1">- ${x}</p>`
                 : html`<p class="h6 text-muted mb-1 mb-lg-1">- ${x}</p>`)}
-
-        <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1" alt="Hello Programming">
+        <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1" 
+            alt="Hello Programming" style="margin-top: ${period.marginTop}">
     </div>
 </div>`;
 
@@ -50,7 +46,7 @@ const sentenceTemplate = (sentence) => html`
     <blockquote class="blockquote text-center">
         <p class="mb-0">
             <i class="fas fa-quote-left text-primary"></i>
-            ${sentence.content}
+                ${sentence.content}
             <i class="fas fa-quote-right text-primary"></i>
         </p>
         <footer class="blockquote-footer">
@@ -73,7 +69,8 @@ const timeline = [
         date: 'September 2020',
         activities: ['Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
             'Hello World!'],
-        image: "hello-world.jpg"
+        image: "hello-world.jpg",
+        marginTop: '8rem'
     },
     {
         date: '2021',
@@ -85,7 +82,8 @@ const timeline = [
             'Data Structures Advanced (with C#)',
             'MS SQL Server',
             'Entity Framework Core'],
-        image: "learning-coding.jpg"
+        image: "learning-coding.jpg",
+        marginTop: '0rem'
     },
     {
         date: '2022',
@@ -93,7 +91,8 @@ const timeline = [
             'Algorithms Advanced with C#',
             'Java Script Advanced',
             'Java Script Applications'],
-        image: "coding-1.jpg"
+        image: "coding-1.jpg",
+        marginTop: '8.2rem'
     }
 ];
 
