@@ -43,7 +43,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                 <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Technical University - Varna(<a href="https://www1.tu-varna.bg/tu-varna/"
+                        <h3 class="mb-0">Technical University - Varna (<a href="https://www1.tu-varna.bg/tu-varna/"
                                 target="blank">tu-varna.bg</a>)</h3>
                         <div class="mb-3">
                             <span class="text-primary">1991 - 1996</span>
