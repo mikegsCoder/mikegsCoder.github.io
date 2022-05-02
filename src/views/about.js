@@ -41,7 +41,7 @@ const timelineCard = (period) => html`
         ${period.activities
 
             .map(x => x == 'Hello World!'
-                ? html`<p class="h5 text-muted mb-1 mb-lg-1">- ${x}</p>`
+                ? html`<p class="h5 text-muted mb-1 mb-lg-1" style="padding-top: 2.2rem">${x}</p>`
                 : html`<p class="h6 text-muted mb-1 mb-lg-1">- ${x}</p>`)}
                 
         <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1" 
@@ -78,7 +78,7 @@ const timeline = [
         activities: ['Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
             'Hello World!'],
         image: "hello-world.jpg",
-        marginTop: '4.8rem'
+        marginTop: '2.6rem'
     },
     {
         date: '2021',
