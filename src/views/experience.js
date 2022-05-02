@@ -4,26 +4,28 @@ const experienceTemplate = (workplaces) => html`
 <section class="resume-section" id="experience" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2 class="mb-5">Experience</h2>
-        ${workplaces.map(workplacePreview)}
+        ${workplaces.map(workplaceCard)}
     </div>
 </section>`;
 
-const workplacePreview = (workplace) => html`
+const workplaceCard = (workplace) => html`
 <hr class="m-2" />
 <div class="subheading mb-3">${workplace.name}
+
     ${workplace.url.length > 0
         ? html`(<a href="${workplace.url}" target="blank">eso.bg</a>)`
         : nothing}
+
     ${workplace.period.length > 0
         ? html`- <b><span class="text-primary">${workplace.period}</span></b>`
         : nothing}
 </div>
 
 <div class="flex-grow-1">
-    ${workplace.roles.map(rolePreview)}
+    ${workplace.roles.map(roleCard)}
 </div>`;
 
-const rolePreview = (role) => html`
+const roleCard = (role) => html`
 <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
     <div class="flex-grow-1">
         <h4 class="mb-0 mr-2" style="display: inline;">${role.name}</h4>
@@ -35,18 +37,21 @@ const rolePreview = (role) => html`
         </p>
         <div class="collapse" id="${role.identification}">
             <div class="card card-body text-left mt-3" style="font-size: 13px;">
-                ${role.responsibilities.map(responsibilitiesPreview)}
+            
+                ${role.responsibilities.map(responsibilitiesCard)}
+                
             </div>
         </div>
     </div>
     <div class="flex-shrink-0">
+
         ${role.period.length == 0
             ? html`<span class="text-primary">${role.startDate} - ${role.endDate}</span>`
             : html`<span class="text-primary"><b>${role.period}</b> | ${role.startDate} - ${role.endDate}</span>`}
     </div>
 </div>`;
 
-const responsibilitiesPreview = (responsibility) => html`
+const responsibilitiesCard = (responsibility) => html`
 &#x2022; ${responsibility}<br />`;
 
 export async function experiencePage(ctx) {
