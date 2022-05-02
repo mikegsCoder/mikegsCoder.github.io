@@ -78,7 +78,7 @@ const timeline = [
         activities: ['Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
             'Hello World!'],
         image: "hello-world.jpg",
-        marginTop: '8rem'
+        marginTop: '4.8rem'
     },
     {
         date: '2021',
@@ -100,7 +100,7 @@ const timeline = [
             'JavaScript Advanced',
             'JavaScript Applications'],
         image: "coding-1.jpg",
-        marginTop: '8.2rem'
+        marginTop: '5.8rem'
     }
 ];
 
