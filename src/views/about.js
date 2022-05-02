@@ -1,12 +1,12 @@
 import { html } from '../lib.js';
 
 const aboutTemplate = (timeline, sentence, socialIcons) => html`
-<section class="resume-section" id="about" style="padding-top: 38px; padding-bottom: 38px;">
+<section class="resume-section" id="about" style="padding-top: 5px; padding-bottom: 10px;">
     <div class="resume-section-content">
-        <h1 class="mb-0">
+        <h1 class="mb-0 text-center">
             Mihail <span class="text-primary">Sidov</span>
         </h1>
-        <div class="subheading mb-5" href="https://softuni.bg/">
+        <div class="subheading mb-5 text-center" href="https://softuni.bg/">
             Student at SoftUni (<a href="https://softuni.bg/"
             target="blank">softuni.bg</a>)
         </div>
@@ -24,7 +24,7 @@ const aboutTemplate = (timeline, sentence, socialIcons) => html`
 
             ${sentenceTemplate(sentence)}
 
-        <div class="social-icons">
+        <div class="social-icons text-center">
 
             ${socialIcons.map(socialIconsCard)}
 
@@ -113,6 +113,14 @@ const socialIcons = [
     {
         url: 'https://github.com/mikegsCoder',
         class: 'fab fa-github'
+    },
+    {
+        url: 'https://bg-bg.facebook.com/mihail.sidov.5',
+        class: 'fab fa-facebook'
+    },
+    {
+        url: 'mailto:mikegsid@gmail.com',
+        class: 'fas fa-envelope'
     },
     // {
     //     url: 'https://www.linkedin.com/in/mihail-sidov/',

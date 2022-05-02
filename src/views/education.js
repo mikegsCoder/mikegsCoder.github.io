@@ -11,7 +11,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                 <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Software University (<a href="https://softuni.bg/trainings/courses"
+                        <h3 class="mb-0 text-left">Software University (<a href="https://softuni.bg/trainings/courses"
                                 target="blank">softuni.bg</a>)</h3>
                         <div class="mb-3"><span class="text-primary">2020 - Present</span></div>
                         <p>Average grade software engineering program: <b>6.00</b></p>
@@ -43,7 +43,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                 <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Technical University - Varna (<a href="https://www1.tu-varna.bg/tu-varna/"
+                        <h3 class="mb-0 text-left">Technical University - Varna (<a href="https://www1.tu-varna.bg/tu-varna/"
                                 target="blank">tu-varna.bg</a>)</h3>
                         <div class="mb-3">
                             <span class="text-primary">1991 - 1996</span>
