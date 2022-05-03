@@ -10,6 +10,7 @@ const root = document.querySelector('main');
 
 page(decorateContext);
 
+page('/', aboutPage);
 page('/about', aboutPage);
 page('/experience', experiencePage);
 page('/education', educationPage);
