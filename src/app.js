@@ -18,7 +18,7 @@ page('/skills', skillsPage);
 page('/certifications', certificationsPage);
 
 page.start();
-page.redirect('/about');
+page.redirect('/');
 
 function decorateContext(ctx, next) {
     ctx.render = (content) => render(content, root);
