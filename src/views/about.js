@@ -44,7 +44,7 @@ const timelineCard = (period) => html`
                 ? html`<p class="h5 text-muted mb-1 mb-lg-1" style="padding-top: 2.2rem">${x}</p>`
                 : html`<p class="h6 text-muted mb-1 mb-lg-1">- ${x}</p>`)}
                 
-        <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1" 
+        <img src="./img/${period.image}" class="card-img mb-1 mb-lg-1 shadow" 
             alt="Hello Programming" style="margin-top: ${period.marginTop}">
     </div>
 </div>`;
