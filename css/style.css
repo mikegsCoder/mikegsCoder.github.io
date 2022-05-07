@@ -11250,6 +11250,6 @@ section.resume-section .resume-section-content {
     max-width: 86%;
     opacity: 18%;
     z-index: -1;
-    margin-left: 0.5rem;
-    margin-top: 1.2rem;
+    /* margin-left: 0.5rem; */
+    /* margin-top: 1.2rem; */
 }
