@@ -81,65 +81,65 @@ const educationCardTU = (course) => html`
 <span><i class="fas fa-check"></i> ${course}</span>`;
 
 export async function educationPage(ctx) {
-    ctx.render(educationTemplate(csCourses.reverse(), jsCourses.reverse(), tuCourses));
+    ctx.render(educationTemplate(csCourses, jsCourses, tuCourses));
 };
 
 const csCourses = [
     {
-        name: 'Algorithms Advanced with C# - January 2022',
-        url: 'https://softuni.bg/certificates/details/127899/61e4eacf'
-    },
-    {
-        name: 'Algorithms Fundamentals with C# - December 2021',
-        url: 'https://softuni.bg/certificates/details/123077/f9e03b4a'
-    },
-    {
-        name: 'Entity Framework Core - October 2021',
-        url: 'https://softuni.bg/certificates/details/119011/23052f62'
-    },
-    {
-        name: 'MS SQL Server - September 2021',
-        url: 'https://softuni.bg/certificates/details/113982/bdfd10f0'
-    },
-    {
-        name: 'Data Structures Advanced (with C#) - August 2021',
-        url: 'https://softuni.bg/certificates/details/113750/5a62579e'
-    },
-    {
-        name: 'Data Structures Fundamentals (with C#) - June 2021',
-        url: 'https://softuni.bg/certificates/details/110022/4c3da5ad'
-    },
-    {
-        name: 'Fundamentals in Mathematics - May 2021',
-        url: 'https://softuni.bg/certificates/details/107586/2e993b11'
-    },
-    {
-        name: 'C# OOP - June 2021',
-        url: 'https://softuni.bg/certificates/details/113008/f864a93e'
-    },
-    {
-        name: 'C# Advanced - May 2021',
-        url: 'https://softuni.bg/certificates/details/108643/f7e63eb9'
+        name: 'Programming Basics with C# - September 2020',
+        url: 'https://softuni.bg/certificates/details/89036/928fda17'
     },
     {
         name: 'Programming Fundamentals with C# - January 2021',
         url: 'https://softuni.bg/certificates/details/103576/f626985a'
     },
     {
-        name: 'Programming Basics with C# - September 2020',
-        url: 'https://softuni.bg/certificates/details/89036/928fda17'
+        name: 'C# Advanced - May 2021',
+        url: 'https://softuni.bg/certificates/details/108643/f7e63eb9'
+    },
+    {
+        name: 'C# OOP - June 2021',
+        url: 'https://softuni.bg/certificates/details/113008/f864a93e'
+    },
+    {
+        name: 'Fundamentals in Mathematics - May 2021',
+        url: 'https://softuni.bg/certificates/details/107586/2e993b11'
+    },
+    {
+        name: 'Data Structures Fundamentals (with C#) - June 2021',
+        url: 'https://softuni.bg/certificates/details/110022/4c3da5ad'
+    },
+    {
+        name: 'Data Structures Advanced (with C#) - August 2021',
+        url: 'https://softuni.bg/certificates/details/113750/5a62579e'
+    },
+    {
+        name: 'MS SQL Server - September 2021',
+        url: 'https://softuni.bg/certificates/details/113982/bdfd10f0'
+    },
+    {
+        name: 'Entity Framework Core - October 2021',
+        url: 'https://softuni.bg/certificates/details/119011/23052f62'
+    },
+    {
+        name: 'Algorithms Fundamentals with C# - December 2021',
+        url: 'https://softuni.bg/certificates/details/123077/f9e03b4a'
+    },
+    {
+        name: 'Algorithms Advanced with C# - January 2022',
+        url: 'https://softuni.bg/certificates/details/127899/61e4eacf'
     }
 ];
 
 const jsCourses = [
     {
-        name: 'JS Applications - February 2022',
-        url: 'https://softuni.bg/certificates/details/130507/8da297c6'
-    },
-    {
         name: 'JS Advanced - January 2022',
         url: 'https://softuni.bg/certificates/details/126433/c0bb0e29'
     },
+    {
+        name: 'JS Applications - February 2022',
+        url: 'https://softuni.bg/certificates/details/130507/8da297c6'
+    }
 ];
 
 const tuCourses = [
