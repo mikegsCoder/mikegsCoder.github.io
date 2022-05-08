@@ -14,6 +14,7 @@ const skillsTemplate = () => html`
             <li class="list-inline-item"><i class="devicon-css3-plain-wordmark colored"></i></li>
             <li class="list-inline-item"><i class="devicon-bootstrap-plain-wordmark colored"></i></li> -->
             <li class="list-inline-item"><i class="devicon-javascript-plain colored"></i></li>
+            <li class="list-inline-item"><i class="devicon-mocha-plain colored"></i></li>
             <!-- <li class="list-inline-item"><i class="devicon-typescript-plain colored"></i></li>
             <li class="list-inline-item"><i class="devicon-angularjs-plain colored"></i></li>
             <li class="list-inline-item"><i class="devicon-react-original-wordmark colored"></i></li> -->
