@@ -1,5 +1,7 @@
 import { page, render } from './lib.js'
 
+import { navigationBar } from './views/navigation.js';
+
 import { aboutPage } from './views/about.js';
 import { experiencePage } from './views/experience.js';
 import { educationPage } from './views/education.js';
@@ -7,6 +9,7 @@ import { skillsPage } from './views/skills.js';
 import { certificationsPage } from './views/certifications.js';
 
 const root = document.querySelector('main');
+const nav = document.querySelector('nav');
 
 page(decorateContext);
 
@@ -18,6 +21,7 @@ page('/skills', skillsPage);
 page('/certifications', certificationsPage);
 
 page.start();
+navigationBar(nav);
 page.redirect('/');
 
 function decorateContext(ctx, next) {
