@@ -26,7 +26,7 @@ const deviconCard = (devicon) => html`
 
 const skillCard = (skill) => html`
 <li>
-    <i class="fa-li fa fa-arrow-right"></i> ${skill}
+    <i style="margin-top: 4px;" class="fa-li fa fa-arrow-right"></i> ${skill}
 </li>`;
 
 export async function skillsPage(ctx) {
