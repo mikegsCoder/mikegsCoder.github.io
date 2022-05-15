@@ -23,7 +23,8 @@ const workplaceCard = (workplace) => html`
 
 <div class="flex-grow-1">
     ${workplace.roles.map(roleCard)}
-</div>`;
+</div>
+<hr class="m-2" />`;
 
 const roleCard = (role) => html`
 <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
