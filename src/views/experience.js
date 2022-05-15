@@ -5,6 +5,7 @@ const experienceTemplate = (workplaces) => html`
     <div class="resume-section-content">
         <h2 class="mb-5">Experience</h2>
         ${workplaces.map(workplaceCard)}
+        <hr class="m-2" />
     </div>
 </section>`;
 
@@ -23,8 +24,7 @@ const workplaceCard = (workplace) => html`
 
 <div class="flex-grow-1">
     ${workplace.roles.map(roleCard)}
-</div>
-<hr class="m-2" />`;
+</div>`;
 
 const roleCard = (role) => html`
 <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
