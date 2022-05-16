@@ -4,19 +4,21 @@ const skillsTemplate = (devicons, skills) => html`
 <section class="resume-section" id="skills">
     <div class="resume-section-content">
         <h2 class="mb-5">Skills</h2>
+        <hr class="m-2" />
         <div class="subheading mb-3">Programming Languages & Tools</div>
         <ul class="list-inline dev-icons">
 
             ${devicons.map(deviconCard)}
 
         </ul>
-
+        <hr class="m-2" />
         <div class="subheading mb-3 mt-4">Personal Skills</div>
         <ul class="fa-ul mb-0">
 
             ${skills.map(skillCard)}
 
         </ul>
+        <hr class="m-2" />
     </div>
 </section>
 <hr class="m-0" />`;

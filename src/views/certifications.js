@@ -4,11 +4,11 @@ const certificationsTemplate = (certificates) => html`
 <section class="resume-section" id="certifications" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2 class="mb-4">Certifications</h2>
-
+        <hr class="m-2" />
         <ul class="fa-ul mb-5">
             ${certificates.map(certificateCard)}
         </ul>
-
+        <hr class="m-2" />
     </div>
 </section>
 <hr class="m-0" />`;

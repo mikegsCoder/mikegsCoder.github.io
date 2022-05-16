@@ -68,6 +68,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                 </div>
             </div>
         </div>
+        <hr class="m-2" />
     </div>
 </section>`;
 
