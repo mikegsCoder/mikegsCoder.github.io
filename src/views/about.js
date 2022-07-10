@@ -98,9 +98,10 @@ const timeline = [
         activities: ['Algorithms Fundamentals with C#',
             'Algorithms Advanced with C#',
             'JavaScript Advanced',
-            'JavaScript Applications'],
+            'JavaScript Applications',
+            'HTML & CSS'],
         image: "coding-1.jpg",
-        marginTop: '5.8rem'
+        marginTop: '4.4rem'
     }
 ];
 

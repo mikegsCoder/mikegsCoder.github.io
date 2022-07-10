@@ -27,6 +27,11 @@ export async function certificationsPage(ctx) {
 
 const certificates = [
     {
+        name: 'HTML & CSS - May 2022',
+        date: 'July 2022',
+        url: 'https://softuni.bg/certificates/details/136945/49d8d54c'
+    },
+    {
         name: 'JS Applications - February 2022',
         date: 'Apr 2022',
         url: 'https://softuni.bg/certificates/details/130507/8da297c6'
