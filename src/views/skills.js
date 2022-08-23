@@ -47,7 +47,7 @@ const devicons = [
     'devicon-mocha-plain colored',
     // 'devicon-typescript-plain colored',
     // 'devicon-angularjs-plain colored',
-    // 'devicon-react-original-wordmark colored'
+    'devicon-react-original-wordmark colored'
 ];
 
 const skills = [
