@@ -99,9 +99,10 @@ const timeline = [
             'Algorithms Advanced with C#',
             'JavaScript Advanced',
             'JavaScript Applications',
-            'HTML & CSS'],
+            'HTML & CSS',
+            'ReactJS'],
         image: "coding-1.jpg",
-        marginTop: '4.4rem'
+        marginTop: '2.9rem'
     }
 ];
 
