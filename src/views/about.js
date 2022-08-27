@@ -121,11 +121,11 @@ const socialIcons = [
         class: 'fab fa-facebook'
     },
     {
+        url: 'https://www.linkedin.com/in/mihail-sidov-7a334b24a/',
+        class: 'fab fa-linkedin-in'
+    },
+    {
         url: 'mailto:mikegsid@gmail.com',
         class: 'fas fa-envelope'
-    },
-    // {
-    //     url: 'https://www.linkedin.com/in/mihail-sidov/',
-    //     class: 'fab fa-linkedin-in'
-    // }
+    }
 ];
