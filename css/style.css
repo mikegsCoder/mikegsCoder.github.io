@@ -5137,7 +5137,6 @@ input[type=button].btn-block {
     width: 100%;
     object-fit: fill;
     height: 340px;
-    border: none;
     border-radius: 5px;
 }
 

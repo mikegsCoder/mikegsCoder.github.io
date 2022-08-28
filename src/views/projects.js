@@ -99,6 +99,7 @@ const carouselCard = (className, image) => html`
                 class="d-block w-100 carousel-img border border-secondary mb-5"
                 src=${image.url}
                 alt=${image.description}
+                style="border: none!important"
             />
         </a>
     </div>
