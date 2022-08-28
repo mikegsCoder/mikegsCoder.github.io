@@ -93,7 +93,7 @@ const carouselCard = (className, image) => html`
     <div class=${className}>
         <a href=${image} target="_blank">
             <img
-                class="d-block w-100 card-img border border-secondary mb-5"
+                class="d-block w-100 carousel-img border border-secondary mb-5"
                 src=${image}
                 alt="TheShopProject Login Page"
             />
