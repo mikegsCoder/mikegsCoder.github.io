@@ -25,8 +25,8 @@ const projectCard = (project) => html`
                     >
                         <i class="fab fa-github text-secondary"></i> See Source Code
                     </a>
-                    <h4 class="mb-3"><i class="fas fa-tools"></i> Built With:</h4>
-                    <ul class="mb-5" style="font-size: 13px;">
+                    <h4 class="mb-3"><i class="fas fa-tools" style="margin-top: 1rem; margin-left: 3rem"></i> Built With :</h4>
+                    <ul class="mb-5" style="font-size: 13px; margin-left: 2rem">
                         ${project.builtWith.map(technologyCard)}
                     </ul>
                     <a
@@ -40,6 +40,7 @@ const projectCard = (project) => html`
                 </div>
 
                 <div class="col-sm-8">
+                    Screenshots Carousel:
                     <div id=${project.id} class="carousel slide mb-4" data-ride="carousel">
                         <ol class="carousel-indicators">
                             ${project.images.map((x) =>
