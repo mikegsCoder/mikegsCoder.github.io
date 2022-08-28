@@ -1,6 +1,7 @@
 import { html } from '../lib.js';
 
-const projectsTemplate = (projects) => html` <section class="resume-section" id="projects">
+const projectsTemplate = (projects) => html` 
+    <section class="resume-section" id="projects">
         <div class="resume-section-content">
             <h2 class="mb-5">Projects</h2>
             ${projects.map(projectCard)}
@@ -41,7 +42,7 @@ const projectCard = (project) => html`
 
                 <div class="col-sm-8">
                     Screenshots Carousel:
-                    <div id=${project.id} class="carousel slide mb-4" data-ride="carousel">
+                    <div id=${project.id} class="carousel slide" data-interval="3000" data-ride="carousel">
                         <ol class="carousel-indicators">
                             ${project.images.map((x) =>
                                 project.images.indexOf(x) == 0
@@ -93,7 +94,7 @@ const technologyCard = (technology) => html`<li>${technology}</li>`;
 
 const carouselCard = (className, image) => html`
     <div class=${className}>
-        <a href=${image} target="_blank">
+        <a href=${image.url} target="_blank">
             <img
                 class="d-block w-100 carousel-img border border-secondary mb-5"
                 src=${image.url}
@@ -108,7 +109,7 @@ const carouselIndicatorsCard = (projectId, index, className) => html`
 `;
 
 export async function projectsPage(ctx) {
-    ctx.render(projectsTemplate(projects))
+    ctx.render(projectsTemplate(projects));
 };
 
 const projects = [
