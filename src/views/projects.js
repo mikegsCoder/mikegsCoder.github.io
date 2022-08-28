@@ -96,8 +96,8 @@ const carouselCard = (className, image) => html`
         <a href=${image} target="_blank">
             <img
                 class="d-block w-100 carousel-img border border-secondary mb-5"
-                src=${image}
-                alt="TheShopProject Login Page"
+                src=${image.url}
+                alt=${image.description}
             />
         </a>
     </div>
@@ -131,14 +131,38 @@ const projects = [
         ],
         projectUrl: 'https://travel-destinations-88814.firebaseapp.com/',
         images: [
-            './img/TravelDestinations/DestinationCarousel.jpg',
-            './img/TravelDestinations/DestinationDetails.jpg',
-            './img/TravelDestinations/DestinationLocation.jpg',
-            './img/TravelDestinations/Register.jpg',
-            './img/TravelDestinations/CreateDestination.jpg',
-            './img/TravelDestinations/CommentsList.jpg',
-            './img/TravelDestinations/UserProfileStatistics.jpg',
-            './img/TravelDestinations/404.jpg',
-        ],
-    },
+            {
+                url: './img/TravelDestinations/DestinationCarousel.jpg',
+                description: 'Destination Carousel'
+            },
+            {
+                url: './img/TravelDestinations/DestinationDetails.jpg',
+                description: 'Destination Details'
+            },
+            {
+                url: './img/TravelDestinations/DestinationLocation.jpg',
+                description: 'Destination Location'
+            },
+            {
+                url: './img/TravelDestinations/Register.jpg',
+                description: 'Register'
+            },
+            {
+                url: './img/TravelDestinations/CreateDestination.jpg',
+                description: 'Create Destination'
+            },
+            {
+                url: './img/TravelDestinations/CommentsList.jpg',
+                description: 'Comments List'
+            },
+            {
+                url: './img/TravelDestinations/UserProfileStatistics.jpg',
+                description: 'User Profile Statistics'
+            },
+            {
+                url: './img/TravelDestinations/404.jpg',
+                description: 'Page Not Found'
+            }
+        ]
+    }
 ];
