@@ -11,7 +11,7 @@ const projectsTemplate = (projects) => html`
 `;
 
 const projectCard = (project) => html`
-    <div class="d-flex flex-column flex-md-row justify-content-between" id="beautybooking">
+    <div class="d-flex flex-column flex-md-row justify-content-between" id=${project.id}>
         <div class="flex-grow-1">
             <h3 class="mb-2" style="background-color: #f8f9fa;">${project.title}</h3>
             <div class="subheading mb-3 project-subtitle">${project.subTitle}</div>
@@ -42,20 +42,20 @@ const projectCard = (project) => html`
 
                 <div class="col-sm-8">
                     Screenshots Carousel:
-                    <div id=${project.id} class="carousel slide" data-interval="3000" data-ride="carousel">
+                    <div id=${project.id + 'Carousel'} class="carousel slide" data-interval="3000" data-ride="carousel">
                         <ol class="carousel-indicators">
                             ${project.images.map((x) =>
                                 project.images.indexOf(x) == 0
                                     ? carouselIndicatorsCard(
-                                          project.id,
-                                          project.images.indexOf(x),
-                                          'active',
+                                            project.id,
+                                            project.images.indexOf(x),
+                                            'active'
                                       )
                                     : carouselIndicatorsCard(
-                                          project.id,
-                                          project.images.indexOf(x),
-                                          '',
-                                      ),
+                                            project.id,
+                                            project.images.indexOf(x),
+                                            ''
+                                      )
                             )}
                         </ol>
                         <div class="carousel-inner">
@@ -67,7 +67,7 @@ const projectCard = (project) => html`
                         </div>
                         <a
                             class="carousel-control-prev"
-                            href=${'#' + project.id}
+                            href=${'#' + project.id + 'Carousel'}
                             role="button"
                             data-slide="prev"
                         >
@@ -76,7 +76,7 @@ const projectCard = (project) => html`
                         </a>
                         <a
                             class="carousel-control-next"
-                            href=${'#' + project.id}
+                            href=${'#' + project.id + 'Carousel'}
                             role="button"
                             data-slide="next"
                         >
@@ -105,7 +105,7 @@ const carouselCard = (className, image) => html`
 `;
 
 const carouselIndicatorsCard = (projectId, index, className) => html`
-    <li data-target=${'#' + projectId} data-slide-to=${index} class=${className}></li>
+    <li data-target=${'#' + projectId + 'Carousel'} data-slide-to=${index} class=${className}></li>
 `;
 
 export async function projectsPage(ctx) {
