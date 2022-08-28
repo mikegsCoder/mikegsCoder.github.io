@@ -1,4 +1,4 @@
-import { html } from '../lib.js'
+import { html } from '../lib.js';
 
 const projectsTemplate = (projects) => html` <section class="resume-section" id="projects">
         <div class="resume-section-content">
@@ -7,7 +7,7 @@ const projectsTemplate = (projects) => html` <section class="resume-section" id=
         </div>
     </section>
     <hr class="m-0" />
-`
+`;
 
 const projectCard = (project) => html`
     <div class="d-flex flex-column flex-md-row justify-content-between" id="beautybooking">
@@ -86,8 +86,9 @@ const projectCard = (project) => html`
             </div>
         </div>
     </div>
-`
-const technologyCard = (technology) => html`<li>${technology}</li>`
+`;
+
+const technologyCard = (technology) => html`<li>${technology}</li>`;
 
 const carouselCard = (className, image) => html`
     <div class=${className}>
@@ -99,15 +100,15 @@ const carouselCard = (className, image) => html`
             />
         </a>
     </div>
-`
+`;
 
 const carouselIndicatorsCard = (projectId, index, className) => html`
     <li data-target=${'#' + projectId} data-slide-to=${index} class=${className}></li>
-`
+`;
 
 export async function projectsPage(ctx) {
     ctx.render(projectsTemplate(projects))
-}
+};
 
 const projects = [
     {
@@ -136,4 +137,4 @@ const projects = [
             'https://travel-destinations-88814.firebaseapp.com/images/screenshots/CreateDestination.jpg',
         ],
     },
-]
+];
