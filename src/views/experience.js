@@ -16,10 +16,6 @@ const workplaceCard = (workplace) => html`
     ${workplace.url.length > 0
         ? html`(<a href="${workplace.url}" target="blank">eso.bg</a>)`
         : nothing}
-
-    ${workplace.period.length > 0
-        ? html`- <b><span class="text-primary">${workplace.period}</span></b>`
-        : nothing}
 </div>
 
 <div class="flex-grow-1">
@@ -30,7 +26,7 @@ const roleCard = (role) => html`
 <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
     <div class="flex-grow-1">
         <h4 class="mb-0 mr-2" style="display: inline;">${role.name}</h4>
-        <p style="display: inline;">
+        <p style="margin-top:-2rem; text-align: end;">
             <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse"
                 data-target="#${role.identification}" aria-expanded="false" aria-controls="${role.identification}">
                 See Main Responsibilities &#x2195;&#xFE0F;
@@ -43,12 +39,6 @@ const roleCard = (role) => html`
                 
             </div>
         </div>
-    </div>
-    <div class="flex-shrink-0">
-
-        ${role.period.length == 0
-            ? html`<span class="text-primary">${role.startDate} - ${role.endDate}</span>`
-            : html`<span class="text-primary"><b>${role.period}</b> | ${role.startDate} - ${role.endDate}</span>`}
     </div>
 </div>`;
 
@@ -67,9 +57,6 @@ const workplaces = [
             {
                 name: 'Relay protection engineer',
                 identification: 'rpev',
-                startDate: 'March 2003',
-                endDate: 'Present',
-                period: '', // period: 'Almost 20 yrs',
                 responsibilities: [
                     'Setting up and maintenance of relay protection and automation devices in electrical substations',
                     'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
@@ -79,9 +66,6 @@ const workplaces = [
                 ]
             }
         ],
-        startDate: 'March 2003',
-        endDate: 'Present',
-        period: '' // period: 'Almost 20 yrs'
     },
     {
         name: 'Electricity Supply Company - Targovishte, Bulgaria',
@@ -90,9 +74,6 @@ const workplaces = [
             {
                 name: 'Relay protection engineer',
                 identification: 'rpet',
-                startDate: 'October 1998',
-                endDate: 'March 2003',
-                period: '', // period: '4 yrs 5 mos',
                 responsibilities: [
                     'Setting up and maintenance of relay protection and automation devices in electrical substations',
                     'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
@@ -104,17 +85,11 @@ const workplaces = [
             {
                 name: 'Operator in electrical substation',
                 identification: 'ot',
-                startDate: 'October 1997',
-                endDate: 'October 1998',
-                period: '', // period: '1 yr',
                 responsibilities: [
                     'Technical servicing of high voltage switchgears',
                     'Manipulations in high voltage electrical switchyards such as switch on/off and change the operating mode of different facilities and devices'
                 ]
             }
         ],
-        startDate: 'October 1997',
-        endDate: 'March 2003',
-        period: '' // period: '5 yr 5 mos'
     }
 ];
