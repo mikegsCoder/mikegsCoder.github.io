@@ -16,6 +16,7 @@ const workplaceCard = (workplace) => html`
     ${workplace.url.length > 0
         ? html`(<a href="${workplace.url}" target="blank">eso.bg</a>)`
         : nothing}
+        
 </div>
 
 <div class="flex-grow-1">

@@ -4,11 +4,11 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
 <section class="resume-section" id="education" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2>Education</h2>
+        <hr class="mb-3">
         <div class="row">
 
             <!-- SoftUni -->
             <div class="col-sm-6">
-                <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0 text-left">Software University (<a href="https://softuni.bg/trainings/courses"
@@ -40,13 +40,12 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
 
             <!-- TU Education -->
             <div class="col-sm-6">
-                <hr class="mb-3">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0 text-left">Technical University - Varna (<a href="https://www1.tu-varna.bg/tu-varna/"
                                 target="blank">tu-varna.bg</a>)</h3>
                         <div class="mb-3">
-                            <span class="text-primary">1991 - 1996</span>
+                            <p class="text-primary" style="margin-bottom: 2rem;"> </p>
                         </div>
                         <!-- <p>Average grade: <b>5.50</b></p> -->
                         <div>Electrical Engineer</div>
