@@ -27,6 +27,11 @@ export async function certificationsPage(ctx) {
 
 const certificates = [
     {
+        name: 'ASP.NET Fundamentals - September 2022',
+        date: 'October 2022',
+        url: 'https://softuni.bg/certificates/details/146563/519ce2b2'
+    },
+    {
         name: 'ReactJS - June 2022',
         date: 'August 2022',
         url: 'https://softuni.bg/certificates/details/140622/14fe73c6'
