@@ -128,6 +128,10 @@ const csCourses = [
     {
         name: 'Algorithms Advanced with C# - January 2022',
         url: 'https://softuni.bg/certificates/details/127899/61e4eacf'
+    },
+    {
+        name: 'ASP.NET Fundamentals - September 2022',
+        url: 'https://softuni.bg/certificates/details/146563/519ce2b2'
     }
 ];
 
