@@ -132,6 +132,10 @@ const csCourses = [
     {
         name: 'ASP.NET Fundamentals - September 2022',
         url: 'https://softuni.bg/certificates/details/146563/519ce2b2'
+    },
+    {
+        name: 'ASP.NET Advanced - October 2022',
+        url: 'https://softuni.bg/certificates/details/152310/35110173'
     }
 ];
 
