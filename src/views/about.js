@@ -99,9 +99,10 @@ const timeline = [
             'JavaScript Applications',
             'HTML & CSS',
             'ReactJS',
-            'ASP.NET Fundamentals'],
+            'ASP.NET Fundamentals',
+            'ASP.NET Advanced'],
         image: "coding-1.jpg",
-        marginTop: '1.5rem'
+        marginTop: '0rem'
     }
 ];
 
