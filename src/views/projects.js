@@ -43,7 +43,7 @@ const projectCard = (project) => html`
                 <div class="col-sm-8">
                     Screenshots Carousel:
                     <div id=${project.id + 'Carousel'} class="carousel slide" data-interval="3000" data-ride="carousel">
-                        <ol class="carousel-indicators">
+                        <ol class="carousel-indicators" style="bottom: -1rem;">
                             ${project.images.map((x) =>
                                 project.images.indexOf(x) == 0
                                     ? carouselIndicatorsCard(
@@ -88,6 +88,7 @@ const projectCard = (project) => html`
             </div>
         </div>
     </div>
+    <hr/>
 `;
 
 const technologyCard = (technology) => html`<li>${technology}</li>`;
@@ -164,6 +165,64 @@ const projects = [
             {
                 url: './img/TravelDestinations/404.jpg',
                 description: 'Page Not Found'
+            }
+        ]
+    },
+    {
+        title: 'Interior Design',
+        subTitle: 'ASP.NET course project @ SoftUni',
+        description:
+            'My project for the ASP.NET Advanced course at SoftUni (October 2022). This is a Web application where you can order furniture, browse gallery with design images and send contact messages to the Interior Desing team. There are roles for Employee and Administrator inplemented. Implemented application email sender using Sendgrid. Implemented company chat using SignalR.',
+        codeUrl: 'https://github.com/mikegsCoder/Interior-Design',
+        id: 'interior-design',
+        builtWith: [
+            'ASP.NET',
+            'Entity Framework Core',
+            'MS Sql',
+            'JavaScript',
+            'SignalR',
+            'Sendgrid',
+            'HTML 5',
+            'CSS',
+            'Font Awesome',
+        ],
+        projectUrl: 'https://interiordesign.azurewebsites.net/',
+        images: [
+            {
+                url: './img/InteriorDesign/Home_Page.jpg',
+                description: 'Home Page'
+            },
+            {
+                url: './img/InteriorDesign/Gallery.jpg',
+                description: 'Gallery'
+            },
+            {
+                url: './img/InteriorDesign/ContactUs.jpg',
+                description: 'Contact Us'
+            },
+            {
+                url: './img/InteriorDesign/Map.jpg',
+                description: 'Geolocation'
+            },
+            {
+                url: './img/InteriorDesign/AboutUs.jpg',
+                description: 'About Us'
+            },
+            {
+                url: './img/InteriorDesign/OurTeam.jpg',
+                description: 'Our Team'
+            },
+            {
+                url: './img/InteriorDesign/AdminPanel.jpg',
+                description: 'Admin Panel'
+            },
+            {
+                url: './img/InteriorDesign/Admin_Testimonials.jpg',
+                description: 'Admin Testimonials'
+            },
+            {
+                url: './img/InteriorDesign/Admin_Gallery.jpg',
+                description: 'Admin Gallery'
             }
         ]
     }
