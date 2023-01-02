@@ -8,6 +8,7 @@ import { educationPage } from './views/education.js';
 import { skillsPage } from './views/skills.js';
 import { projectsPage } from './views/projects.js';
 import { certificationsPage } from './views/certifications.js';
+import { diplomasPage } from './views/diplomas.js';
 
 const root = document.querySelector('main');
 const nav = document.querySelector('nav');
@@ -21,6 +22,7 @@ page('/education', educationPage);
 page('/skills', skillsPage);
 page('/projects', projectsPage);
 page('/certifications', certificationsPage);
+page('/diplomas', diplomasPage);
 
 page.start();
 navigationBar(nav);
