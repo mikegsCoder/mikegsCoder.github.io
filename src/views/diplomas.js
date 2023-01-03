@@ -4,6 +4,7 @@ const diplomasTemplate = (diplomas) => html`
 <section class="resume-section" id="diplomas" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2 class="mb-4">Diplomas</h2>
+        <hr class="mb-3" style="margin-bottom: 2rem !important;"/>
         <div class="row">
         
             ${diplomas.map(diplomaCard)}
