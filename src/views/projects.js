@@ -186,7 +186,7 @@ const projects = [
             'CSS',
             'Font Awesome',
         ],
-        projectUrl: 'https://interiordesign.azurewebsites.net/',
+        projectUrl: 'http://mikegscoderasp-001-site1.atempurl.com/',
         images: [
             {
                 url: './img/InteriorDesign/Home_Page.jpg',
