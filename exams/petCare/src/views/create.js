@@ -4,7 +4,7 @@ import { createItem } from '../api/data.js';
 const createTemplate = (onSubmit) => html`
 <section id="createPage">
     <form @submit=${onSubmit} class="createForm">
-        <img src="./images/cat-create.jpg">
+        <img src="./exams/petCare/images/cat-create.jpg">
         <div>
             <h2>Create PetPal</h2>
             <div class="name">
@@ -25,7 +25,7 @@ const createTemplate = (onSubmit) => html`
             </div>
             <div class="image">
                 <label for="image">Image:</label>
-                <input name="image" id="image" type="text" placeholder="./image/dog.jpeg">
+                <input name="image" id="image" type="text" placeholder="./exams/petCare/image/dog.jpeg">
             </div>
             <button class="btn" type="submit">Create Pet</button>
         </div>
