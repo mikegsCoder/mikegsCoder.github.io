@@ -8,7 +8,7 @@ const homeTemplate = () => html`
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
     </article>
     <article class="welcome-content-image">
-        <img src="https://mikegscoder.github.io/exams/petCare/exams/petCare/images/header-dog.png" alt="dog">
+        <img src="https://mikegscoder.github.io/exams/petCare/images/header-dog.png" alt="dog">
     </article>
 </section>`;
 
