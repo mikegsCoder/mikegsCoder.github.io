@@ -50,5 +50,5 @@ function updateUserNav() {
 function onLogout() {
     logout();
     updateUserNav();
-    page.redirect('/');
+    page.redirect('/exams/petCare/');
 }
