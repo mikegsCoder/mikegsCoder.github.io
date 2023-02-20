@@ -1,7 +1,7 @@
 .welcome-content {
     display: flex;
     justify-content: flex-start;
-    background: url(/images/header-bg.png);
+    background: url(./images/header-bg.png);
     height: 480px;
     border-radius: 50%/ 0 0 40px 40px;
 }
