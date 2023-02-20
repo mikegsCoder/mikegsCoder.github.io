@@ -9,28 +9,22 @@ import { createPage } from './views/create.js';
 import { detailsPage } from './views/details.js';
 import { editPage } from './views/edit.js';
 
-// console.log('it works');
-// import * as api from './api/data.js';
-// window.api = api;
-
 const root = document.getElementById('content');
 document.getElementById('logoutBtn').addEventListener('click', onLogout);
 
 page(decorateContext);
 
-// page('/', () => console.log('home page'));
-
-page('/', homePage);
-page('/login', loginPage);
-page('/register', registerPage);
-page('/catalog', catalogPage);
-page('/create', createPage);
-page('/details/:id', detailsPage);
-page('/edit/:id', editPage);
+page('/exams/petCare/', homePage);
+page('/exams/petCare/login', loginPage);
+page('/exams/petCare/register', registerPage);
+page('/exams/petCare/catalog', catalogPage);
+page('/exams/petCare/create', createPage);
+page('/exams/petCare/details/:id', detailsPage);
+page('/exams/petCare/edit/:id', editPage);
 
 updateUserNav();
 page.start();
-page.redirect('/');
+// page.redirect('/');
 
 function decorateContext(ctx, next) {
     ctx.render = (content) => render(content, root);
