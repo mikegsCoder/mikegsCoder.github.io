@@ -1340,7 +1340,7 @@
                 "breed": "Shiba Inu",
                 "age": "2 years",
                 "weight": "5kg",
-                "image": "../images/Shiba-Inu.png",
+                "image": "https://mikegscoder.github.io/exams/petCare/images/Shiba-Inu.png",
                 "_createdOn": 1617194128618
             },
             "1840a313-225c-416a-817a-9954d4609f7c": {
@@ -1349,7 +1349,7 @@
                 "breed": "American Curl",
                 "age": "1 year",
                 "weight": "3kg",
-                "image": "../images/cat2.jpg",
+                "image": "https://mikegscoder.github.io/exams/petCare/images/cat2.jpg",
                 "_createdOn": 1617194210928
             },
             "126777f5-3277-42ad-b874-76d043b069cb": {
@@ -1358,7 +1358,7 @@
                 "breed": "Pug",
                 "age": "3 years",
                 "weight": "4kg",
-                "image": "../images/dog2.jpg",
+                "image": "https://mikegscoder.github.io/exams/petCare/images/dog2.jpg",
                 "_createdOn": 1617194295474
             },
             "136777f5-3277-42ad-b874-76d043b069cb": {
@@ -1367,7 +1367,7 @@
                 "breed": "Teddy guinea pig",
                 "age": "1 years",
                 "weight": "1kg",
-                "image": "../images/guinea-pig.jpg",
+                "image": "https://mikegscoder.github.io/exams/petCare/images/guinea-pig.jpg",
                 "_createdOn": 1617194295480
             }
         },
