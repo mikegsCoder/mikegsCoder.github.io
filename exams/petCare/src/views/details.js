@@ -66,12 +66,12 @@ export async function detailsPage(ctx) {
 
         if (choice) {
             await deleteItem(ctx.params.id);
-            ctx.page.redirect('/');
+            ctx.page.redirect('/exams/petCare/');
         }
     }
 
     async function onDonate() {
         await donateItem(ctx.params.id);
-        ctx.page.redirect('/details/' + ctx.params.id);
+        ctx.page.redirect('/exams/petCare/details/' + ctx.params.id);
     }
 }

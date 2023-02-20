@@ -41,6 +41,6 @@ export function loginPage(ctx) {
 
         await login(email, password);
         ctx.updateUserNav();
-        ctx.page.redirect('/');
+        ctx.page.redirect('/exams/petCare/');
     }
 }

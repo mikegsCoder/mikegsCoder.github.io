@@ -58,6 +58,6 @@ export async function editPage(ctx) {
             image
         });
 
-        ctx.page.redirect('/details/' + ctx.params.id);
+        ctx.page.redirect('/exams/petCare/details/' + ctx.params.id);
     }
 }

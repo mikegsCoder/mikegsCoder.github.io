@@ -50,6 +50,6 @@ export function registerPage(ctx) {
 
         await register(email, password);
         ctx.updateUserNav();
-        ctx.page.redirect('/');
+        ctx.page.redirect('/exams/petCare/');
     }
 }

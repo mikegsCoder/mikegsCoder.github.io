@@ -57,6 +57,6 @@ export function createPage(ctx) {
             image
         });
 
-        ctx.page.redirect('/');
+        ctx.page.redirect('/exams/petCare/');
     }
 }
