@@ -4,7 +4,7 @@ import { register } from '../api/data.js';
 const registerTemplate = (onSubmit) => html`
 <section id="registerPage">
     <form @submit=${onSubmit} class="registerForm">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="https://mikegscoder.github.io/exams/petCare/images/logo.png" alt="logo" />
         <h2>Register</h2>
         <div class="on-dark">
             <label for="email">Email:</label>
