@@ -30,6 +30,7 @@ page('/edit/:id', editPage);
 
 updateUserNav();
 page.start();
+page.redirect('/');
 
 function decorateContext(ctx, next) {
     ctx.render = (content) => render(content, root);
