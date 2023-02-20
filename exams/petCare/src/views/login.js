@@ -4,7 +4,7 @@ import { login } from '../api/data.js';
 const loginTemplate = (onSubmit) => html`
 <section id="loginPage">
     <form @submit=${onSubmit} class="loginForm">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="https://mikegscoder.github.io/exams/petCare/images/logo.png" alt="logo" />
         <h2>Login</h2>
 
         <div>
