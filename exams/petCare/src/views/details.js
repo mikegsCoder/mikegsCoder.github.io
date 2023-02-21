@@ -32,7 +32,7 @@ const detailsTemplate = (pet, hasUser, isOwner, onDelete, donations, showDonatio
 const petControlTemplate = (pet, isOwner, onDelete) => {
     if (isOwner) {
         return html`
-            <a href="/edit/${pet._id}" class="edit">Edit</a>
+            <a href="/exams/petCare/edit/${pet._id}" class="edit">Edit</a>
             <a @click=${onDelete} href="javascript:void(0)" class="remove">Delete</a>`
     } else {
         return nothing;
