@@ -1,8 +1,8 @@
 import { clearUserData, getUserData, setUserData } from "../util.js";
 
-const host = 'http://localhost:3030';
-// const host = 'https://petcareserver.onrender.com/';
-// admin panel: https://petcareserver.onrender.com/admin/
+const host = 'https://applicationsserver.onrender.com';
+// const host = 'http://localhost:3030';
+
 // app url : https://mikegscoder.github.io/exams/petCare/
 
 async function request(url, options) {
