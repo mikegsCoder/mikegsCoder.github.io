@@ -20,7 +20,7 @@ const loginTemplate = (onSubmit) => html`
         <button class="btn" type="submit">Login</button>
 
         <p class="field">
-            <span>If you don't have profile click <a href="https://mikegscoder.github.io/exams/petCare/register">here</a></span>
+            <span>If you don't have profile click <a href="/exams/petCare/register">here</a></span>
         </p>
     </form>
 </section>`;
