@@ -24,7 +24,7 @@ const petPreview = (pet) => html`
     <h2 class="name">${pet.name}</h2>
     <h3 class="breed">${pet.breed}</h3>
     <div class="action">
-        <a class="btn" href="/details/${pet._id}">Details</a>
+        <a class="btn" href="https://mikegscoder.github.io/exams/petCare/details/${pet._id}">Details</a>
     </div>
 </div>`;
 

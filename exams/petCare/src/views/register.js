@@ -24,7 +24,7 @@ const registerTemplate = (onSubmit) => html`
         <button class="btn" type="submit">Register</button>
 
         <p class="field">
-            <span>If you have profile click <a href="/login">here</a></span>
+            <span>If you have profile click <a href="https://mikegscoder.github.io/exams/petCare/login">here</a></span>
         </p>
     </form>
 </section>`;
