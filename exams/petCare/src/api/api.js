@@ -1,6 +1,6 @@
 import { clearUserData, getUserData, setUserData } from "../util.js";
 
-const host = 'https://applicationsserver.onrender.com';
+const host = 'https://examserver.onrender.com';
 // const host = 'http://localhost:3030';
 
 // app url : https://mikegscoder.github.io/exams/petCare/
