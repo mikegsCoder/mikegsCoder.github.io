@@ -50,11 +50,14 @@ const donateControlTemplate = (showDonationButton, onDonate) => {
 export async function detailsPage(ctx) {
     const userData = getUserData();
     const hasUser = Boolean(userData);
+
+    ctx.spinner.style.display = 'block';
     const [pet, donations, hasDonation] = await Promise.all([
         getItemById(ctx.params.id),
         getDonationByItemId(ctx.params.id),
         userData ? getMyDonationByItemId(ctx.params.id, userData.id) : 0
     ]);
+    ctx.spinner.style.display = 'none';
 
     const isOwner = userData && userData.id == pet._ownerId;
     const showDonationButton = userData != null && isOwner == false && hasDonation == false;
