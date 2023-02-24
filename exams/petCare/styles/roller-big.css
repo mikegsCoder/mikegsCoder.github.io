@@ -1,9 +1,4 @@
 .lds-spinner {
-    /* color: official;
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px; */
     width: 500px;
     height: 500px;
     position: absolute;
@@ -21,9 +16,7 @@
     position: absolute;
     top: 19px;
     left: 231px;
-    /* width: 37px; */
     width: 17px;
-    /* height: 112px; */
     height: 100px;
     border-radius: 20%;
     background: #fff;
