@@ -36,10 +36,13 @@ export function loginPage(ctx) {
         const password = formData.get('password').trim();
 
         if (email == '' || password == '') {
-            return alert('Please fill both fields!');
+            return alert('All fields are required.');
         }
 
+        ctx.spinner.style.display = 'block';
         await login(email, password);
+        ctx.spinner.style.display = 'none';
+
         ctx.updateUserNav();
         ctx.page.redirect('/exams/petCare/');
     }

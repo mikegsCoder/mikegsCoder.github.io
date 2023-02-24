@@ -41,14 +41,17 @@ export function registerPage(ctx) {
         const repass = formData.get('repeatPassword').trim();
 
         if (email == '' || password == '' || repass == '') {
-            return alert('Please fill all fields!');
+            return alert('All fields are required.');
         }
 
         if (password != repass) {
-            return alert('Passwords don\'t match!');
+            return alert('Passwords don\'t match.');
         }
 
+        ctx.spinner.style.display = 'block';
         await register(email, password);
+        ctx.spinner.style.display = 'none';
+        
         ctx.updateUserNav();
         ctx.page.redirect('/exams/petCare/');
     }

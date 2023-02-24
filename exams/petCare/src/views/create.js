@@ -49,6 +49,7 @@ export function createPage(ctx) {
             return alert('All fields are required!');
         }
 
+        ctx.spinner.style.display = 'block';
         await createItem({
             name,
             breed,
@@ -56,6 +57,7 @@ export function createPage(ctx) {
             weight,
             image
         });
+        ctx.spinner.style.display = 'none';
 
         ctx.page.redirect('/exams/petCare/');
     }

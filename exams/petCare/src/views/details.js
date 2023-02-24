@@ -65,13 +65,19 @@ export async function detailsPage(ctx) {
         const choice = confirm(`Are you sure you want to delete this pet?`);
 
         if (choice) {
+            ctx.spinner.style.display = 'block';
             await deleteItem(ctx.params.id);
+            ctx.spinner.style.display = 'none';
+
             ctx.page.redirect('/exams/petCare/');
         }
     }
 
     async function onDonate() {
+        ctx.spinner.style.display = 'block';
         await donateItem(ctx.params.id);
+        ctx.spinner.style.display = 'none';
+
         ctx.page.redirect('/exams/petCare/details/' + ctx.params.id);
     }
 }

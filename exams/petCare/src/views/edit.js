@@ -33,7 +33,10 @@ const editTemplate = (pet, onSubmit) => html`
 </section>`;
 
 export async function editPage(ctx) {
+    ctx.spinner.style.display = 'block';
     const pet = await getItemById(ctx.params.id);
+    ctx.spinner.style.display = 'none';
+
     ctx.render(editTemplate(pet, onSubmit));
 
     async function onSubmit(event) {
@@ -50,6 +53,7 @@ export async function editPage(ctx) {
             return alert('All fields are required!');
         }
 
+        ctx.spinner.style.display = 'block';
         await editItem(ctx.params.id, {
             name,
             breed,
@@ -57,6 +61,7 @@ export async function editPage(ctx) {
             weight,
             image
         });
+        ctx.spinner.style.display = 'none';
 
         ctx.page.redirect('/exams/petCare/details/' + ctx.params.id);
     }

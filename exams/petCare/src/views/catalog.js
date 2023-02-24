@@ -29,7 +29,9 @@ const petPreview = (pet) => html`
 </div>`;
 
 export async function catalogPage(ctx) {
+    ctx.spinner.style.display = 'block';
     const pets = await getAllItems();
+    ctx.spinner.style.display = 'none';
     
     ctx.render(catalogTemplate(pets));
 }
