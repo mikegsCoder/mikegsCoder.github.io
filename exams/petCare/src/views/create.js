@@ -25,7 +25,7 @@ const createTemplate = (onSubmit) => html`
             </div>
             <div class="image">
                 <label for="image">Image:</label>
-                <input name="image" id="image" type="text" placeholder="... dog.jpeg">
+                <input name="image" id="image" type="text" placeholder="https:// ... pet.jpeg">
             </div>
             <button class="btn" type="submit">Create Pet</button>
         </div>
