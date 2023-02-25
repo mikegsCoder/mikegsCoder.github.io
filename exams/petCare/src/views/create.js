@@ -9,11 +9,11 @@ const createTemplate = (onSubmit) => html`
             <h2>Create PetPal</h2>
             <div class="name">
                 <label for="name">Name:</label>
-                <input name="name" id="name" type="text" placeholder="Max">
+                <input name="name" id="name" type="text" placeholder="Lucky">
             </div>
             <div class="breed">
                 <label for="breed">Breed:</label>
-                <input name="breed" id="breed" type="text" placeholder="Shiba Inu">
+                <input name="breed" id="breed" type="text" placeholder="Persian">
             </div>
             <div class="Age">
                 <label for="age">Age:</label>
@@ -21,7 +21,7 @@ const createTemplate = (onSubmit) => html`
             </div>
             <div class="weight">
                 <label for="weight">Weight:</label>
-                <input name="weight" id="weight" type="text" placeholder="5kg">
+                <input name="weight" id="weight" type="text" placeholder="5 kg">
             </div>
             <div class="image">
                 <label for="image">Image:</label>
@@ -46,7 +46,7 @@ export function createPage(ctx) {
         const image = formData.get('image').trim();
 
         if (name == '' || breed == '' || age == '' || weight == '' || image == '') {
-            return alert('All fields are required!');
+            return alert('All fields are required.');
         }
 
         ctx.spinner.style.display = 'block';
