@@ -48,9 +48,7 @@ export function registerPage(ctx) {
             return alert('Passwords don\'t match.');
         }
 
-        ctx.spinner.style.display = 'block';
         await register(email, password);
-        ctx.spinner.style.display = 'none';
         
         ctx.updateUserNav();
         ctx.page.redirect('/exams/petCare/');
