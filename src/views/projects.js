@@ -1,4 +1,4 @@
-import { html } from '../lib.js';
+import { html, nothing } from '../lib.js';
 
 const projectsTemplate = (projects) => html` 
     <section class="resume-section" id="projects">
@@ -30,14 +30,17 @@ const projectCard = (project) => html`
                     <ul class="mb-5" style="font-size: 13px; margin-left: 2rem">
                         ${project.builtWith.map(technologyCard)}
                     </ul>
-                    <a
-                        href=${project.projectUrl}
-                        target="_blank"
-                        type="button"
-                        class="btn btn-outline-primary btn-lg mb-5 mt-3"
-                    >
-                        ${project.title}
-                    </a>
+                    ${project.projectUrl.length > 0
+                        ?   html`<a 
+                                    href=${project.projectUrl}
+                                    target="_blank"
+                                    type="button"
+                                    class="btn btn-outline-primary btn-lg mb-5 mt-3"
+                                >
+                                    ${project.title}
+                                </a>`
+                        :   nothing
+                    }
                 </div>
 
                 <div class="col-sm-8">
@@ -46,16 +49,16 @@ const projectCard = (project) => html`
                         <ol class="carousel-indicators" style="bottom: -1rem;">
                             ${project.images.map((x) =>
                                 project.images.indexOf(x) == 0
-                                    ? carouselIndicatorsCard(
+                                    ?   carouselIndicatorsCard(
                                             project.id,
                                             project.images.indexOf(x),
                                             'active'
-                                      )
-                                    : carouselIndicatorsCard(
+                                        )
+                                    :   carouselIndicatorsCard(
                                             project.id,
                                             project.images.indexOf(x),
                                             ''
-                                      )
+                                        )
                             )}
                         </ol>
                         <div class="carousel-inner">
