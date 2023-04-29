@@ -6,9 +6,8 @@ const aboutTemplate = (timeline, sentence, socialIcons) => html`
         <h1 class="mb-0 text-center">
             Mihail <span class="text-primary">Sidov</span>
         </h1>
-        <div class="subheading mb-5 text-center" href="https://softuni.bg/">
-            Student at SoftUni (<a href="https://softuni.bg/"
-            target="blank">softuni.bg</a>)
+        <div class="subheading mb-5 text-center">
+            <img src="https://readme-typing-svg.demolab.com?font=Saira+Extra+Condensed&weight=500&size=35&duration=1800&pause=1000&color=000000&center=true&multiline=true&width=280&height=80&lines=SOFTWARE+ENGINEER;C%23+FULL+STACK+DEVELOPER" alt="Typing SVG" />
         </div>
 
         <!-- Timeline -->
