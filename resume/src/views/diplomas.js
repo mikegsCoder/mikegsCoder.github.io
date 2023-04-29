@@ -34,11 +34,11 @@ export async function diplomasPage(ctx) {
 
 const diplomas = [
     {
-        img: 'img/Diplomas/Diploma-for-CSharp-Web-Developer.jpeg',
+        img: './resume/img/Diplomas/Diploma-for-CSharp-Web-Developer.jpeg',
         url: 'https://softuni.bg/certificates/details/153472/e10a1751'
     },
     {
-        img: 'img/Diplomas/Diploma-for-CSharp-Full-Stack-Developer.jpeg',
+        img: './resume/img/Diplomas/Diploma-for-CSharp-Full-Stack-Developer.jpeg',
         url: 'https://softuni.bg/certificates/details/153420/65aa8f2a'
     }   
 ];
