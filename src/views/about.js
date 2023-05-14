@@ -102,6 +102,12 @@ const timeline = [
             'ASP.NET Advanced'],
         image: "coding-1.jpg",
         marginTop: '0rem'
+    },
+    {
+        date: '2023',
+        activities: ['Windows Presentation Foundation'],
+        image: "coding-2.jpg",
+        marginTop: '10.3rem'
     }
 ];
 
