@@ -4,7 +4,7 @@ const navigationTemplate = (navContent) => html`
 <a class="navbar-brand" href="/">
     <span class="d-block d-lg-none">Mihail Sidov</span>
     <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        <img class="img-fluid img-profile rounded-semi mx-auto mb-2"
             src="https://avatars.githubusercontent.com/u/78846575?s=460&v=4" alt="mikegsCoder" />
     </span>
 </a>
