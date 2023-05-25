@@ -17,81 +17,98 @@ const projectCard = (project) => html`
             <div class="subheading mb-3 project-subtitle">${project.subTitle}</div>
             <p>${project.description}</p>
             <div class="row">
-                <div class="col-sm-4">
-                    <a
-                        href=${project.codeUrl}
-                        target="_blank"
-                        type="button"
-                        class="btn btn-outline-primary btn-lg mb-5 mt-3"
-                    >
-                        <i class="fab fa-github text-secondary"></i> See Source Code
-                    </a>
-                    <h4 class="mb-3"><i class="fas fa-tools" style="margin-top: 1rem; margin-left: 3rem"></i> Built With :</h4>
-                    <ul class="mb-5" style="font-size: 13px; margin-left: 2rem">
-                        ${project.builtWith.map(technologyCard)}
-                    </ul>
-                    ${project.projectUrl.length > 0
-                        ?   html`<a 
-                                    href=${project.projectUrl}
-                                    target="_blank"
-                                    type="button"
-                                    class="btn btn-outline-primary btn-lg mb-5 mt-3"
-                                >
-                                    ${project.title}
-                                </a>`
-                        :   nothing
-                    }
-                </div>
-
-                <div class="col-sm-8">
-                    Screenshots Carousel:
-                    <div id=${project.id + 'Carousel'} class="carousel slide" data-interval="3000" data-ride="carousel">
-                        <ol class="carousel-indicators" style="bottom: -1rem;">
-                            ${project.images.map((x) =>
-                                project.images.indexOf(x) == 0
-                                    ?   carouselIndicatorsCard(
-                                            project.id,
-                                            project.images.indexOf(x),
-                                            'active'
-                                        )
-                                    :   carouselIndicatorsCard(
-                                            project.id,
-                                            project.images.indexOf(x),
-                                            ''
-                                        )
-                            )}
-                        </ol>
-                        <div class="carousel-inner">
-                            ${project.images.map((x) =>
-                                project.images.indexOf(x) == 0
-                                    ? carouselCard('carousel-item active', x)
-                                    : carouselCard('carousel-item', x),
-                            )}
-                        </div>
-                        <a
-                            class="carousel-control-prev"
-                            href=${'#' + project.id + 'Carousel'}
-                            role="button"
-                            data-slide="prev"
-                        >
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a
-                            class="carousel-control-next"
-                            href=${'#' + project.id + 'Carousel'}
-                            role="button"
-                            data-slide="next"
-                        >
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
+                ${projects.indexOf(project) % 2 == 0
+                    ? evenProjectCard(project)
+                    : oddProjectCard(project)
+                }
             </div>
         </div>
     </div>
     <hr/>
+`;
+
+const evenProjectCard = (project) => html`
+    ${projectDescriptionCard(project, 0)}
+    ${projectCarouselCard(project)}
+`;
+
+const oddProjectCard = (project) => html`
+    ${projectCarouselCard(project)}
+    ${projectDescriptionCard(project, 6)}
+`;
+
+const projectDescriptionCard = (project, padding) => html`
+    <div class="col-sm-4" style="padding-left: ${padding}rem;">
+        <a
+            href=${project.codeUrl}
+            target="_blank"
+            type="button"
+            class="btn btn-outline-primary btn-lg mb-5 mt-3"
+        >
+            <i class="fab fa-github text-secondary"></i> See Source Code
+        </a>
+        <h4 class="mb-3"><i class="fas fa-tools" style="margin-top: 1rem; margin-left: 3rem"></i> Built With :</h4>
+        <ul class="mb-5" style="font-size: 13px; margin-left: 2rem">
+            ${project.builtWith.map(technologyCard)}
+        </ul>
+        ${project.projectUrl.length > 0
+            ? html`<a 
+                        href=${project.projectUrl}
+                        target="_blank"
+                        type="button"
+                        class="btn btn-outline-primary btn-lg mb-5 mt-3"
+                    >
+                        ${project.title}
+                    </a>`
+            : nothing
+        }
+    </div>
+`;
+
+const projectCarouselCard = (project) => html`
+    <div class="col-sm-8">
+        Screenshots Carousel:
+        <div id=${project.id + 'Carousel'} class="carousel slide" data-interval="3000" data-ride="carousel">
+            <ol class="carousel-indicators" style="bottom: -1rem;">
+                ${project.images.map((x) =>
+                    project.images.indexOf(x) == 0
+                    ? carouselIndicatorsCard(
+                        project.id,
+                        project.images.indexOf(x),
+                        'active')
+                    : carouselIndicatorsCard(
+                        project.id,
+                        project.images.indexOf(x),
+                        '')
+                )}
+            </ol>
+            <div class="carousel-inner">
+                ${project.images.map((x) =>
+                    project.images.indexOf(x) == 0
+                    ? carouselCard('carousel-item active', x)
+                    : carouselCard('carousel-item', x),
+                )}
+            </div>
+            <a
+                class="carousel-control-prev"
+                href=${'#' + project.id + 'Carousel'}
+                role="button"
+                data-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href=${'#' + project.id + 'Carousel'}
+                role="button"
+                data-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 `;
 
 const technologyCard = (technology) => html`<li>${technology}</li>`;
