@@ -1,6 +1,6 @@
 import { html } from '../lib.js';
 
-const aboutTemplate = (timeline, sentence, socialIcons) => html`
+const aboutTemplate = (timeline, sentence) => html`
 <section class="resume-section" id="about" style="padding-top: 5px; padding-bottom: 10px;">
     <div class="resume-section-content">
         <h1 class="mb-0 text-center">
@@ -22,12 +22,7 @@ const aboutTemplate = (timeline, sentence, socialIcons) => html`
         </div>
 
             ${sentenceTemplate(sentence)}
-
-        <div class="social-icons text-center">
-
-            ${socialIcons.map(socialIconsCard)}
-
-        </div>
+       
     </div>
 </section>
 <hr class="m-0" />`;
@@ -60,13 +55,8 @@ const sentenceTemplate = (sentence) => html`
     </blockquote>
 </div>`;
 
-const socialIconsCard = (icon) => html`
-<a class="social-icon" href=${icon.url} target="_blank">
-    <i class=${icon.class}></i>
-</a>`;
-
 export async function aboutPage(ctx) {
-    ctx.render(aboutTemplate(timeline, sentence, socialIcons));
+    ctx.render(aboutTemplate(timeline, sentence));
 };
 
 const timeline = [
@@ -114,23 +104,4 @@ const timeline = [
 const sentence = {
     content: 'Before software can be reusable it first has to be usable.',
     author: 'Ralph Johnson'
-}
-
-const socialIcons = [
-    {
-        url: 'https://github.com/mikegsCoder',
-        class: 'fab fa-github'
-    },
-    {
-        url: 'https://bg-bg.facebook.com/mihail.sidov.5',
-        class: 'fab fa-facebook'
-    },
-    {
-        url: 'https://www.linkedin.com/in/mihail-sidov-7a334b24a/',
-        class: 'fab fa-linkedin-in'
-    },
-    {
-        url: 'mailto:mikegsid@gmail.com',
-        class: 'fas fa-envelope'
-    }
-];
+};
