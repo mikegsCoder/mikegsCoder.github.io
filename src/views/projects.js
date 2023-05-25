@@ -138,8 +138,7 @@ const projects = [
     {
         title: 'Travel Destinations',
         subTitle: 'ReactJS course project @ SoftUni',
-        description:
-            'My project for the ReactJS course at SoftUni (June 2022). This is a Web application where you can share the best travel destinations you have visited and to browse such destinations shared by other users. Each destination has title, description, image URL and geolocation. The project is deployed on Firebase.',
+        description: 'My project for the ReactJS course at SoftUni (June 2022). This is a Web application where you can share the best travel destinations you have visited and to browse such destinations shared by other users. Each destination has title, description, image URL and geolocation. The project is deployed on Firebase.',
         codeUrl: 'https://github.com/mikegsCoder/Travel-Destinations',
         id: 'travel-destinations',
         builtWith: [
@@ -191,8 +190,7 @@ const projects = [
     {
         title: 'Interior Design',
         subTitle: 'ASP.NET course project @ SoftUni',
-        description:
-            'My project for the ASP.NET Advanced course at SoftUni (October 2022). This is a Web application where you can order furniture, browse gallery with design images and send contact messages to the Interior Desing team. There are roles for Employee and Administrator inplemented. Implemented application email sender using Sendgrid. Implemented company chat using SignalR.',
+        description: 'My project for the ASP.NET Advanced course at SoftUni (October 2022). This is a Web application where you can order furniture, browse gallery with design images and send contact messages to the Interior Desing team. There are roles for Employee and Administrator inplemented. Implemented application email sender using Sendgrid. Implemented company chat using SignalR.',
         codeUrl: 'https://github.com/mikegsCoder/Interior-Design',
         id: 'interior-design',
         builtWith: [
@@ -249,8 +247,7 @@ const projects = [
     {
         title: 'Task Manager',
         subTitle: 'Windows Presentation Foundation course project',
-        description:
-            'My project for the Windows Presentation Foundation course. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
+        description: 'My project for the Windows Presentation Foundation course. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
         codeUrl: 'https://github.com/mikegsCoder/Task-Manager',
         id: 'task-manager',
         builtWith: [
