@@ -1,16 +1,16 @@
 import { html } from '../lib.js';
 
-const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
+const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
 <section class="resume-section" id="education" style="padding-top: 38px; padding-bottom: 38px;">
     <div class="resume-section-content">
         <h2>Education</h2>
         <hr class="mb-3">
         <div class="row">
 
-            <!-- SoftUni -->
             <div class="col-sm-6">
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
+                        <!-- SoftUni -->
                         <h3 class="mb-0 text-left">Software University (<a href="https://softuni.bg/trainings/courses"
                                 target="blank">softuni.bg</a>)</h3>
                         <div class="mb-3"><span class="text-primary">2020 - 2023</span></div>
@@ -21,17 +21,26 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                             <!-- C# -->
                             <div class="font-weight-bold">C# & .NET Courses:</div>
                             <ul class="list-unstyled pl-4 mr-5">
-
                                 ${csCourses.map(educationCardSoftUni)}
-
                             </ul>
 
                             <!-- JavaScript -->
                             <div class="font-weight-bold">JavaScript & Front-End Courses:</div>
                             <ul class="list-unstyled pl-4 mr-5">
-
                                 ${jsCourses.map(educationCardSoftUni)}
+                            </ul>
+                        </div>
 
+                        <!-- Self Education -->
+                        <h3 class="mb-0 text-left">Self Education (<a href="https://github.com/mikegsCoder/Self-Education/"
+                            target="blank">repo</a>)</h3>
+                        <div class="mb-3"><span class="text-primary">2023 - present</span></div>
+
+                        <!-- C# -->
+                        <div style="font-size: 13px;">
+                            <div class="font-weight-bold">C# & .NET Courses:</div>
+                            <ul class="list-unstyled pl-4 mr-5">
+                                ${seCourses.csCourses.map(educationCardSoftUni)}
                             </ul>
                         </div>
                     </div>
@@ -58,9 +67,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses) => html`
                         </p>
                         <div class="collapse" id="nbuCourses">
                             <div class="card card-body text-left" style="font-size: 13px;">
-                               
                                 ${tuCourses.map(educationCardTU)}
-
                             </div>
                         </div>
                     </div>
@@ -81,7 +88,7 @@ const educationCardTU = (course) => html`
 <span><i class="fas fa-check"></i> ${course}</span>`;
 
 export async function educationPage(ctx) {
-    ctx.render(educationTemplate(csCourses, jsCourses, tuCourses));
+    ctx.render(educationTemplate(csCourses, jsCourses, tuCourses, seCourses));
 };
 
 const csCourses = [
@@ -210,3 +217,13 @@ const tuCourses = [
     'Design and exploitation of electrical networks',
     'Design and exploitation of electrical networks - project'
 ];
+
+const seCourses = {
+    csCourses: [
+        {
+            name: 'Windows Presentation Foundation - January 2023 to April 2023',
+            url: 'https://github.com/mikegsCoder/Self-Education/tree/main/WPF'
+        }
+    ],
+    jsCourses:[]
+};
