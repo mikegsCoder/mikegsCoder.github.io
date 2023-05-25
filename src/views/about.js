@@ -95,9 +95,10 @@ const timeline = [
     },
     {
         date: '2023',
-        activities: ['Windows Presentation Foundation'],
+        activities: ['Windows Presentation Foundation',
+            'WPF project - Task Manager'],
         image: "coding-2.jpg",
-        marginTop: '10.3rem'
+        marginTop: '8.8rem'
     }
 ];
 
