@@ -23,7 +23,7 @@ const navigationTemplate = (navContent) => html`
 
 const navCard = (title) => html`
 <li class="nav-item">
-    <a class="nav-link" href="/${title}">${title}</a>
+    <a class="nav-link" href="/${title.replace(' ', '-')}">${title}</a>
 </li>`;
 
 export async function navigationBar(nav) {
@@ -37,5 +37,6 @@ const navContent = [
     'skills',
     'certifications',
     'diplomas',
+    'web exams',
     'projects',
 ];

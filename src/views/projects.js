@@ -1,16 +1,16 @@
 import { html, nothing } from '../lib.js';
 
-const projectsTemplate = (projects) => html` 
+export const projectsTemplate = (projects, title) => html` 
     <section class="resume-section" id="projects">
         <div class="resume-section-content">
-            <h2 class="mb-5">Projects</h2>
-            ${projects.map(projectCard)}
+            <h2 class="mb-5">${title}</h2>
+            ${projects.map(p => projectCard(projects, p))}
         </div>
     </section>
     <hr class="m-0" />
 `;
 
-const projectCard = (project) => html`
+const projectCard = (projects, project) => html`
     <div class="d-flex flex-column flex-md-row justify-content-between" id=${project.id}>
         <div class="flex-grow-1">
             <h3 class="mb-2" style="background-color: #f8f9fa;">${project.title}</h3>
@@ -131,7 +131,7 @@ const carouselIndicatorsCard = (projectId, index, className) => html`
 `;
 
 export async function projectsPage(ctx) {
-    ctx.render(projectsTemplate(projects));
+    ctx.render(projectsTemplate(projects, 'Projects'));
 };
 
 const projects = [
