@@ -34,9 +34,9 @@ const navContent = [
     'about',
     'experience',
     'education',
+    'web exams',
     'skills',
     'certifications',
     'diplomas',
-    'web exams',
     'projects',
 ];
