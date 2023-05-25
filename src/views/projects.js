@@ -181,7 +181,7 @@ const projects = [
         builtWith: [
             'ASP.NET',
             'Entity Framework Core',
-            'MS Sql',
+            'MS SQL',
             'JavaScript',
             'SignalR',
             'Sendgrid',
@@ -226,6 +226,71 @@ const projects = [
             {
                 url: './img/InteriorDesign/Admin_Gallery.jpg',
                 description: 'Admin Gallery'
+            }
+        ]
+    },
+    {
+        title: 'Task Manager',
+        subTitle: 'Windows Presentation Foundation course project',
+        description:
+            'My project for the Windows Presentation Foundation course. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
+        codeUrl: 'https://github.com/mikegsCoder/Task-Manager',
+        id: 'task-manager',
+        builtWith: [
+            'WPF',
+            'Entity Framework Core',
+            'MS SQL',
+            'C#'
+        ],
+        projectUrl: '',
+        images: [
+            {
+                url: './img/TaskManager/MainWindow.jpg',
+                description: 'Main Window'
+            },
+            {
+                url: './img/TaskManager/Register.jpg',
+                description: 'Register'
+            },
+            {
+                url: './img/TaskManager/Login.jpg',
+                description: 'Login'
+            },
+            {
+                url: './img/TaskManager/AllTasks.jpg',
+                description: 'All Tasks'
+            },
+            {
+                url: './img/TaskManager/TaskAdd.jpg',
+                description: 'Add Task Window'
+            },
+            {
+                url: './img/TaskManager/TaskEdit.jpg',
+                description: 'Edit Task Window'
+            },
+            {
+                url: './img/TaskManager/TaskDelete.jpg',
+                description: 'Delete Task Window'
+            },
+            {
+                url: './img/TaskManager/Remarks.jpg',
+                description: 'Remarks Window'
+            },
+            {
+                url: './img/TaskManager/RemarkAdd.jpg',
+                description: 'Add Remark Window'
+            },
+            {
+                url: './img/TaskManager/RemarkEdit.jpg',
+                description: 'Edit Remark Window'
+            },
+            {
+                url: './img/TaskManager/RemarkDelete.jpg',
+                description: 'Delete Remark Window'
+            },
+            {
+                url: './img/TaskManager/ExportTasks.jpg',
+                description: 'Export Tasks Window'
             }
         ]
     }
