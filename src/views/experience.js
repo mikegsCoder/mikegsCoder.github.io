@@ -36,9 +36,7 @@ const roleCard = (role) => html`
         </p>
         <div class="collapse" id="${role.identification}">
             <div class="card card-body text-left mt-3" style="font-size: 13px;">
-            
                 ${role.responsibilities.map(responsibilitiesCard)}
-                
             </div>
         </div>
     </div>

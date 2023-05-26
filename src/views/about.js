@@ -15,15 +15,11 @@ const aboutTemplate = (timeline, sentence) => html`
         <div class="row mb-3">
             <div class="col">
                 <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-
                     ${timeline.map(timelineCard)}
-
                 </div>
             </div>
         </div>
-
             ${sentenceTemplate(sentence)}
-       
     </div>
 </section>
 <hr class="m-0" />`;
