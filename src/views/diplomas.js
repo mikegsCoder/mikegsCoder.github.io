@@ -1,4 +1,5 @@
 import { html } from '../utils/lib.js';
+import { diplomas } from '../utils/data.js';
 
 const diplomasTemplate = (diplomas) => html`
 <section class="resume-section" id="diplomas" style="padding-top: 38px; padding-bottom: 38px;">
@@ -31,14 +32,3 @@ const diplomaCard = (diploma) => html`
 export async function diplomasPage(ctx) {
     ctx.render(diplomasTemplate(diplomas));
 };
-
-const diplomas = [
-    {
-        img: 'img/Diplomas/Diploma-for-CSharp-Web-Developer.jpeg',
-        url: 'https://softuni.bg/certificates/details/153472/e10a1751'
-    },
-    {
-        img: 'img/Diplomas/Diploma-for-CSharp-Full-Stack-Developer.jpeg',
-        url: 'https://softuni.bg/certificates/details/153420/65aa8f2a'
-    }   
-];

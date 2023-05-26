@@ -1,4 +1,5 @@
 import { html } from '../utils/lib.js';
+import { devicons, skills } from '../utils/data.js';
 
 const skillsTemplate = (devicons, skills) => html`
 <section class="resume-section" id="skills">
@@ -7,16 +8,12 @@ const skillsTemplate = (devicons, skills) => html`
         <hr class="m-2" />
         <div class="subheading mb-3">Programming Languages & Tools</div>
         <ul class="list-inline dev-icons">
-
             ${devicons.map(deviconCard)}
-
         </ul>
         <hr class="m-2" />
         <div class="subheading mb-3 mt-4">Personal Skills</div>
         <ul class="fa-ul mb-0">
-
             ${skills.map(skillCard)}
-
         </ul>
         <hr class="m-2" />
     </div>
@@ -34,25 +31,3 @@ const skillCard = (skill) => html`
 export async function skillsPage(ctx) {
     ctx.render(skillsTemplate(devicons, skills));
 };
-
-const devicons = [
-    'devicon-csharp-plain-wordmark colored',
-    'devicon-dot-net-plain-wordmark colored',
-    'devicon-dotnetcore-plain colored',
-    'devicon-microsoftsqlserver-plain-wordmark colored',
-    'devicon-html5-plain-wordmark colored',
-    'devicon-css3-plain-wordmark colored',
-    // 'devicon-bootstrap-plain-wordmark colored',
-    'devicon-javascript-plain colored',
-    'devicon-mocha-plain colored',
-    // 'devicon-typescript-plain colored',
-    // 'devicon-angularjs-plain colored',
-    'devicon-react-original-wordmark colored'
-];
-
-const skills = [
-    'Algorithmic Thinking',
-    'Problem Solving',
-    'Communication',
-    'Teamwork'
-];

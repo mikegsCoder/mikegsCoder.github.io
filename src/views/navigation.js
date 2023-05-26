@@ -1,4 +1,5 @@
 import { html, render } from '../utils/lib.js';
+import { socialIcons } from '../utils/data.js';
 
 const navigationTemplate = (navContent) => html`
 <a class="navbar-brand" href="/">
@@ -45,23 +46,4 @@ const navContent = [
     'certifications',
     'diplomas',
     'projects',
-];
-
-const socialIcons = [
-    {
-        url: 'https://github.com/mikegsCoder',
-        class: 'fab fa-github'
-    },
-    // {
-    //     url: 'https://bg-bg.facebook.com/mihail.sidov.5',
-    //     class: 'fab fa-facebook'
-    // },
-    {
-        url: 'https://www.linkedin.com/in/mihail-sidov-7a334b24a/',
-        class: 'fab fa-linkedin-in'
-    },
-    {
-        url: 'mailto:mikegsid@gmail.com',
-        class: 'fas fa-envelope'
-    }
 ];

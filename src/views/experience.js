@@ -1,4 +1,5 @@
 import { html, nothing } from '../utils/lib.js';
+import { workplaces } from '../utils/data.js';
 
 const experienceTemplate = (workplaces) => html`
 <section class="resume-section" id="experience" style="padding-top: 38px; padding-bottom: 38px;">
@@ -49,48 +50,3 @@ const responsibilitiesCard = (responsibility) => html`
 export async function experiencePage(ctx) {
     ctx.render(experienceTemplate(workplaces));
 };
-
-const workplaces = [
-    {
-        name: 'Electricity System Operator - Varna, Bulgaria',
-        url: 'https://www.eso.bg/',
-        roles: [
-            {
-                name: 'Relay protection engineer',
-                identification: 'rpev',
-                responsibilities: [
-                    'Setting up and maintenance of relay protection and automation devices in electrical substations',
-                    'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
-                    'Electrical measurements and maintenance of high voltage facilities in electrical substations',
-                    'Technical servicing of high voltage switchgears',
-                    'Technical maintenance of high voltage facilities such as circuit breakers, disconnectors, voltage and current transformers'
-                ]
-            }
-        ],
-    },
-    {
-        name: 'Electricity Supply Company - Targovishte, Bulgaria',
-        url: '',
-        roles: [
-            {
-                name: 'Relay protection engineer',
-                identification: 'rpet',
-                responsibilities: [
-                    'Setting up and maintenance of relay protection and automation devices in electrical substations',
-                    'Setting up and maintenance of event recording and disturbance recording devices  in electrical substations',
-                    'Electrical measurements and maintenance of high voltage facilities in electrical substations',
-                    'Technical servicing of high voltage switchgears',
-                    'Technical maintenance of high voltage facilities such as circuit breakers, disconnectors, voltage and current transformers'
-                ]
-            },
-            {
-                name: 'Operator in electrical substation',
-                identification: 'ot',
-                responsibilities: [
-                    'Technical servicing of high voltage switchgears',
-                    'Manipulations in high voltage electrical switchyards such as switch on/off and change the operating mode of different facilities and devices'
-                ]
-            }
-        ],
-    }
-];

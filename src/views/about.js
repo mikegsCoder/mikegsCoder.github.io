@@ -1,4 +1,5 @@
 import { html } from '../utils/lib.js';
+import { timeline, sentence } from '../utils/data.js'
 
 const aboutTemplate = (timeline, sentence) => html`
 <section class="resume-section" id="about" style="padding-top: 5px; padding-bottom: 10px;">
@@ -57,52 +58,4 @@ const sentenceTemplate = (sentence) => html`
 
 export async function aboutPage(ctx) {
     ctx.render(aboutTemplate(timeline, sentence));
-};
-
-const timeline = [
-    {
-        date: 'September 2020',
-        activities: ['Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
-            'Hello World!'],
-        image: "hello-world.jpg",
-        marginTop: '2.6rem'
-    },
-    {
-        date: '2021',
-        activities: ['Programming Fundamentals with C#',
-            'C# Advanced',
-            'C# Object Oriented Programming',
-            'Fundamentals in Mathematics',
-            'Data Structures Fundamentals (with C#)',
-            'Data Structures Advanced (with C#)',
-            'MS SQL Server',
-            'Entity Framework Core'],
-        image: "learning-coding.jpg",
-        marginTop: '0rem'
-    },
-    {
-        date: '2022',
-        activities: ['Algorithms Fundamentals with C#',
-            'Algorithms Advanced with C#',
-            'JavaScript Advanced',
-            'JavaScript Applications',
-            'HTML & CSS',
-            'ReactJS',
-            'ASP.NET Fundamentals',
-            'ASP.NET Advanced'],
-        image: "coding-1.jpg",
-        marginTop: '0rem'
-    },
-    {
-        date: '2023',
-        activities: ['Windows Presentation Foundation',
-            'WPF project - Task Manager'],
-        image: "coding-2.jpg",
-        marginTop: '8.8rem'
-    }
-];
-
-const sentence = {
-    content: 'Before software can be reusable it first has to be usable.',
-    author: 'Ralph Johnson'
 };
