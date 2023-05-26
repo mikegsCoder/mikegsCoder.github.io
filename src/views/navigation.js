@@ -1,4 +1,4 @@
-import { html, render } from '../lib.js';
+import { html, render } from '../utils/lib.js';
 
 const navigationTemplate = (navContent) => html`
 <a class="navbar-brand" href="/">

@@ -1,4 +1,4 @@
-import { html, nothing } from '../lib.js';
+import { html, nothing } from '../utils/lib.js';
 
 const experienceTemplate = (workplaces) => html`
 <section class="resume-section" id="experience" style="padding-top: 38px; padding-bottom: 38px;">

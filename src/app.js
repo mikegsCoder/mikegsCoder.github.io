@@ -1,15 +1,15 @@
-import { page, render } from './lib.js'
+import { page, render } from './utils/lib.js'
 
 import { navigationBar } from './views/navigation.js';
 
 import { aboutPage } from './views/about.js';
 import { experiencePage } from './views/experience.js';
 import { educationPage } from './views/education.js';
+import { examsPage } from './views/web-exams.js';
 import { skillsPage } from './views/skills.js';
 import { certificationsPage } from './views/certifications.js';
 import { diplomasPage } from './views/diplomas.js';
 import { projectsPage } from './views/projects.js';
-import { examsPage } from './views/web-exams.js';
 
 const root = document.querySelector('main');
 const nav = document.querySelector('nav');

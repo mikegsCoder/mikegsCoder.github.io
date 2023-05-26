@@ -1,4 +1,4 @@
-import { html } from '../lib.js';
+import { html } from '../utils/lib.js';
 
 const aboutTemplate = (timeline, sentence) => html`
 <section class="resume-section" id="about" style="padding-top: 5px; padding-bottom: 10px;">

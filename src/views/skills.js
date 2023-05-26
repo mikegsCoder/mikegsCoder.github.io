@@ -1,4 +1,4 @@
-import { html } from '../lib.js';
+import { html } from '../utils/lib.js';
 
 const skillsTemplate = (devicons, skills) => html`
 <section class="resume-section" id="skills">

@@ -1,4 +1,4 @@
-import { html } from '../lib.js';
+import { html } from '../utils/lib.js';
 
 const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
 <section class="resume-section" id="education" style="padding-top: 38px; padding-bottom: 38px;">

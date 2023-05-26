@@ -1,4 +1,4 @@
-import { html, nothing } from '../lib.js';
+import { html, nothing } from './lib.js';
 
 export const projectsTemplate = (projects, title) => html` 
 <section class="resume-section" id="projects">
