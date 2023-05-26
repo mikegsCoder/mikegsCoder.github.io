@@ -1,4 +1,4 @@
-import { projectsTemplate } from './projects.js';
+import { projectsTemplate } from '../utils/projectsTemplate.js'
 
 export async function examsPage(ctx) {
     ctx.render(projectsTemplate(exams, 'Exams on the Web'));

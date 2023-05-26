@@ -33,7 +33,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
 
                         <!-- Self Education -->
                         <h3 class="mb-0 text-left">Self Education (<a href="https://github.com/mikegsCoder/Self-Education/"
-                            target="blank">repo</a>)</h3>
+                            target="blank">self-education repo</a>)</h3>
                         <div class="mb-3"><span class="text-primary">2023 - present</span></div>
 
                         <!-- C# -->
