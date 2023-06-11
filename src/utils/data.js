@@ -612,18 +612,71 @@ const exams = [
 ];
 
 const devicons = [
-    'devicon-csharp-plain-wordmark colored',
-    'devicon-dot-net-plain-wordmark colored',
-    'devicon-dotnetcore-plain colored',
-    'devicon-microsoftsqlserver-plain-wordmark colored',
-    'devicon-html5-plain-wordmark colored',
-    'devicon-css3-plain-wordmark colored',
-    // 'devicon-bootstrap-plain-wordmark colored',
-    'devicon-javascript-plain colored',
-    'devicon-mocha-plain colored',
-    // 'devicon-typescript-plain colored',
-    // 'devicon-angularjs-plain colored',
-    'devicon-react-original-wordmark colored'
+    {
+        name: 'csharp',
+        image: './img/Devicons/csharp.svg',
+        url: 'https://www.w3schools.com/cs'
+    },
+    {
+        name: 'dotnet',
+        image: './img/Devicons/dotnet.svg',
+        url: 'https://dotnet.microsoft.com'
+    },
+    {
+        name: 'mssql',
+        image: './img/Devicons/sqlserver.svg',
+        url: 'https://www.microsoft.com/en-us/sql-server'
+    },
+    {
+        name: 'efcore',
+        image: './img/Devicons/efcore.png',
+        url: 'https://learn.microsoft.com/en-us/ef/core'
+    },
+    {
+        name: 'wpf',
+        image: './img/Devicons/wpf.png',
+        url: 'https://learn.microsoft.com/en-us/dotnet/desktop/wpf'
+    },
+    {
+        name: 'asp',
+        image: './img/Devicons/asp.png',
+        url: 'https://learn.microsoft.com/en-us/aspnet/core'
+    },
+    {
+        name: 'git',
+        image: './img/Devicons/git.svg',
+        url: 'https://git-scm.com'
+    },
+    {
+        name: 'postman',
+        image: './img/Devicons/postman.svg',
+        url: 'https://postman.com'
+    },
+    {
+        name: 'javascript',
+        image: './img/Devicons/javascript.svg',
+        url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+    },
+    {
+        name: 'mocha',
+        image: './img/Devicons/mocha.svg',
+        url: 'https://mochajs.org'
+    },
+    {
+        name: 'html5',
+        image: './img/Devicons/html5.svg',
+        url: 'https://www.w3.org/html'
+    },
+    {
+        name: 'css',
+        image: './img/Devicons/css.svg',
+        url: 'https://www.w3schools.com/Css'
+    },
+    {
+        name: 'reactjs',
+        image: './img/Devicons/react.svg',
+        url: 'https://reactjs.org'
+    }
 ];
 
 const skills = [

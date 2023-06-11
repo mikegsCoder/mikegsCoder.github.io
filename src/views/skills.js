@@ -21,7 +21,9 @@ const skillsTemplate = (devicons, skills) => html`
 <hr class="m-0" />`;
 
 const deviconCard = (devicon) => html`
-<li class="list-inline-item"><i class="${devicon}"></i></li>`;
+<a href="${devicon.url}" target="_blank" rel="noreferrer"> 
+    <img src="${devicon.image}" alt="${devicon.name}" width="60" height="60"/> 
+</a>`;
 
 const skillCard = (skill) => html`
 <li>
