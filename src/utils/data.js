@@ -459,13 +459,13 @@ const projects = [
     {
         title: 'Task Manager',
         subTitle: 'Windows Presentation Foundation course project',
-        description: 'My project for the Windows Presentation Foundation course. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
+        description: 'My project for the Windows Presentation Foundation and MongoDB with C# courses. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
         codeUrl: 'https://github.com/mikegsCoder/Task-Manager',
         id: 'task-manager',
         builtWith: [
             'WPF',
-            'Entity Framework Core',
-            'MS SQL',
+            'EF-Core and MSSQL for MSSQL version',
+            'MongoDbDriver and MongoDB for MongoDB version',
             'C#'
         ],
         projectUrl: '',
