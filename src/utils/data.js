@@ -664,6 +664,11 @@ const devicons = [
         url: 'https://mochajs.org'
     },
     {
+        name: 'mongoDB',
+        image: './img/Devicons/mongodb.svg',
+        url: 'https://www.mongodb.com'
+    },
+    {
         name: 'html5',
         image: './img/Devicons/html5.svg',
         url: 'https://www.w3.org/html'
