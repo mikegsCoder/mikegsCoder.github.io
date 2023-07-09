@@ -35,9 +35,10 @@ const timeline = [
     {
         date: '2023',
         activities: ['Windows Presentation Foundation',
-            'WPF project - Task Manager'],
+            'WPF project - Task Manager',
+            'MongoDB with C#'],
         image: "coding-2.jpg",
-        marginTop: '8.8rem'
+        marginTop: '7.35rem'
     }
 ];
 
