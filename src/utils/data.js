@@ -278,6 +278,10 @@ const seCourses = {
         {
             name: 'Windows Presentation Foundation - January 2023 to April 2023',
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/WPF'
+        },
+        {
+            name: 'MongoDB with C# - May 2023 to June 2023',
+            url: 'https://github.com/mikegsCoder/Self-Education/tree/main/MongoDB-with-CSharp'
         }
     ],
     jsCourses:[]
