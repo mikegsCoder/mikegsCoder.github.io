@@ -36,9 +36,10 @@ const timeline = [
         date: '2023',
         activities: ['Windows Presentation Foundation',
             'WPF project - Task Manager',
-            'MongoDB with C#'],
+            'MongoDB with C#',
+            'Design Patterns'],
         image: "coding-2.jpg",
-        marginTop: '7.35rem'
+        marginTop: '5.85rem'
     }
 ];
 
@@ -282,6 +283,10 @@ const seCourses = {
         {
             name: 'MongoDB with C# - May 2023 to June 2023',
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/MongoDB-with-CSharp'
+        },
+        {
+            name: 'Design Patterns - July 2023 to August 2023',
+            url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Design-Patterns'
         }
     ],
     jsCourses:[]
