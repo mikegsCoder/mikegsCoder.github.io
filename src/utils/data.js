@@ -696,6 +696,7 @@ const devicons = [
 
 const skills = [
     'Persistence',
+    'Discipline',
     'Algorithmic Thinking',
     'Problem Solving',
     'Communication',
