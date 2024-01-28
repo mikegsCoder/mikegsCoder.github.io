@@ -376,6 +376,10 @@ const projects = [
         projectUrl: 'https://travel-destinations-88814.firebaseapp.com/',
         images: [
             {
+                url: './img/TravelDestinations/HomePage.jpg',
+                description: 'Home Page'
+            },
+            {
                 url: './img/TravelDestinations/DestinationCarousel.jpg',
                 description: 'Destination Carousel'
             },
