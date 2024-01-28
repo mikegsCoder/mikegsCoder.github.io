@@ -701,8 +701,9 @@ const devicons = [
 const skills = [
     'Persistence',
     'Discipline',
-    'Algorithmic Thinking',
-    'Problem Solving',
+    'Algorithmic thinking',
+    'Ability to learn new technologies',
+    'Problem solving',
     'Communication',
     'Teamwork'
 ];
