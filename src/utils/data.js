@@ -43,10 +43,32 @@ const timeline = [
     }
 ];
 
-const sentence = {
-    content: 'Before software can be reusable it first has to be usable.',
-    author: 'Ralph Johnson'
-};
+const sentenceArr = [
+    {
+        content: 'Before software can be reusable it first has to be usable.',
+        author: 'Ralph Johnson'
+    },
+    {
+        content: 'Programming isn\'t about what you know, it\'s about what you can figure out.',
+        author: 'Chris Pine'
+    },
+    {
+        content: 'Code is like humor. When you have to explain it, it\'s bad.',
+        author: 'Cory House'
+    },
+    {
+        content: 'Clean code always looks like it was written by someone who cares.',
+        author: 'Robert C. Martin'
+    },
+    {
+        content: 'First, solve the problem. Then, write the code.',
+        author: 'John Johnson'
+    },
+    {
+        content: 'It\'s not a bug, it\'s an undocumented feature.',
+        author: 'Anonymous author'
+    }
+];
 
 const certificates = [
     {
@@ -710,7 +732,7 @@ const skills = [
 
 export {
     timeline,
-    sentence,
+    sentenceArr,
     certificates,
     diplomas,
     csCourses,
