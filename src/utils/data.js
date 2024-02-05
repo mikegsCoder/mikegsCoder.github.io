@@ -37,10 +37,17 @@ const timeline = [
         activities: ['Windows Presentation Foundation',
             'WPF project - Task Manager',
             'MongoDB with C#',
-            'Design Patterns'],
+            'Design Patterns',
+            'JS Back-End'],
         image: "coding-2.jpg",
-        marginTop: '5.85rem'
-    }
+        marginTop: '4.45rem'
+    },
+    // {
+    //     date: '2024',
+    //     activities: ['TypeScript'],
+    //     image: "coding-3.jpg",
+    //     marginTop: '4.45rem'
+    // }
 ];
 
 const sentenceArr = [
@@ -311,7 +318,12 @@ const seCourses = {
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Design-Patterns'
         }
     ],
-    jsCourses:[]
+    jsCourses:[
+        {
+            name: 'JS Back-End - September 2023 to January 2024',
+            url: 'https://github.com/mikegsCoder/Self-Education/tree/main/JS-Back-End'
+        },
+    ]
 };
 
 const workplaces = [
@@ -644,6 +656,59 @@ const exams = [
                 description: 'My books'
             }
         ]
+    },
+    {
+        title: 'Shared Trip',
+        subTitle: 'JS Back-End Exam @ SoftUni',
+        description: 'My solution for the JS Back-End exam created by SoftUni. This is a simple Multi Page Application where you can create, edit, delete shared trips or join the trips created by other users.',
+        codeUrl: 'https://github.com/mikegsCoder/Self-Education/tree/main/JS-Back-End/12.%20Exams/08.%20Shared-Trip',
+        id: 'shared-trip',
+        builtWith: [
+            'JavaScript',
+            'ExpressJS',
+            'Mongoose',
+            'MongoDB',
+            'Jsonwebtoken',
+            'Bcrypt',
+            'Handlebars',
+            'HTML 5',
+            'CSS'
+        ],
+        projectUrl: 'https://sharedtrip.onrender.com/',
+        images: [
+            {
+                url: './img/SharedTrip/HomePage.jpg',
+                description: 'Home page'
+            },
+            {
+                url: './img/SharedTrip/SharedTrips.jpg',
+                description: 'Shared trips'
+            },
+            {
+                url: './img/SharedTrip/RegisterPage.jpg',
+                description: 'Register page'
+            },
+            {
+                url: './img/SharedTrip/LoginPage.jpg',
+                description: 'Login page'
+            },
+            {
+                url: './img/SharedTrip/OfferTrip.jpg',
+                description: 'Offer trip'
+            },
+            {
+                url: './img/SharedTrip/EditTrip.jpg',
+                description: 'Edit trip'
+            },
+            {
+                url: './img/SharedTrip/TripDetails.jpg',
+                description: 'Trip details'
+            },
+            {
+                url: './img/SharedTrip/ProfilePage.jpg',
+                description: 'Profile page'
+            }
+        ]
     }
 ];
 
@@ -697,6 +762,11 @@ const devicons = [
         name: 'mocha',
         image: './img/Devicons/mocha.svg',
         url: 'https://mochajs.org'
+    },
+    {
+        name: 'Node.js',
+        image: './img/Devicons/nodejs.svg',
+        url: 'https://nodejs.org'
     },
     {
         name: 'mongoDB',
