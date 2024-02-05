@@ -44,6 +44,14 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
                                 ${seCourses.csCourses.map(educationCardSoftUni)}
                             </ul>
                         </div>
+
+                        <!-- JS -->
+                        <div style="font-size: 13px;">
+                            <div class="font-weight-bold">JavaScript & Front-End Courses:</div>
+                            <ul class="list-unstyled pl-4 mr-5">
+                                ${seCourses.jsCourses.map(educationCardSoftUni)}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
