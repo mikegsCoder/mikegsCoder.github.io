@@ -42,12 +42,12 @@ const timeline = [
         image: "coding-2.jpg",
         marginTop: '4.45rem'
     },
-    // {
-    //     date: '2024',
-    //     activities: ['TypeScript'],
-    //     image: "coding-3.jpg",
-    //     marginTop: '4.45rem'
-    // }
+    {
+        date: '2024',
+        activities: ['TypeScript'],
+        image: "coding-3.jpg",
+        marginTop: '10.3rem'
+    }
 ];
 
 const sentenceArr = [
