@@ -759,6 +759,11 @@ const devicons = [
         url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
     },
     {
+        name: 'typescript',
+        image: './img/Devicons/typescript.svg',
+        url: 'https://www.typescriptlang.org'
+    },
+    {
         name: 'mocha',
         image: './img/Devicons/mocha.svg',
         url: 'https://mochajs.org'
