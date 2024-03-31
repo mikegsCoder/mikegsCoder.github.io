@@ -323,6 +323,10 @@ const seCourses = {
             name: 'JS Back-End - September 2023 to January 2024',
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/JS-Back-End'
         },
+        {
+            name: 'TypeScript - January 2024 to March 2024',
+            url: 'https://github.com/mikegsCoder/Self-Education/tree/main/TypeScript'
+        },
     ]
 };
 
