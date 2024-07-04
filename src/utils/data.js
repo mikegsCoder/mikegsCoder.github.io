@@ -44,9 +44,11 @@ const timeline = [
     },
     {
         date: '2024',
-        activities: ['TypeScript'],
+        activities: ['TypeScript',
+            'Angular',
+            'Angular project - Photo Site'],
         image: "coding-3.jpg",
-        marginTop: '10.3rem'
+        marginTop: '7.4rem'
     }
 ];
 
