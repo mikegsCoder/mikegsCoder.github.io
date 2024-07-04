@@ -802,6 +802,11 @@ const devicons = [
         name: 'reactjs',
         image: './img/Devicons/react.svg',
         url: 'https://reactjs.org'
+    },
+    {
+        name: 'angular',
+        image: './img/Devicons/angular.png',
+        url: 'https://angular.io'
     }
 ];
 
