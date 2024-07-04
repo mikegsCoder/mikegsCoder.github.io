@@ -329,6 +329,10 @@ const seCourses = {
             name: 'TypeScript - January 2024 to March 2024',
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/TypeScript'
         },
+        {
+          name: 'Angular - March 2024 to July 2024',
+          url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Angular'
+        },
     ]
 };
 
