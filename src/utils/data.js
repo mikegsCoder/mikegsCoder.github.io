@@ -577,6 +577,59 @@ const projects = [
                 description: 'Export Tasks Window'
             }
         ]
+    },
+    {
+      title: 'Photo Site',
+      subTitle: 'Angular course project',
+      description: 'My project for the Angular course. This is a Web application where you can post you best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
+      codeUrl: 'https://github.com/mikegsCoder/Photo-Site',
+      id: 'photo-site',
+      builtWith: [
+          'Angular',
+          'TypeScript',
+          'Mongo DB',
+          'HTML 5',
+          'CSS'
+      ],
+      projectUrl: '',
+      images: [
+            {
+                url: './img/PhotoSite/HomePage.jpg',
+                description: 'Home Page'
+            },
+            {
+                url: './img/PhotoSite/AllPosts.jpg',
+                description: 'All Posts'
+            },
+            {
+                url: './img/PhotoSite/Details.jpg',
+                description: 'Post Details'
+            },
+            {
+                url: './img/PhotoSite/Login.jpg',
+                description: 'Login'
+            },
+            {
+                url: './img/PhotoSite/Register.jpg',
+                description: 'Register'
+            },
+            {
+                url: './img/PhotoSite/Create.jpg',
+                description: 'Create Post'
+            },
+            {
+                url: './img/PhotoSite/Edit.jpg',
+                description: 'Edit Post'
+            },
+            {
+                url: './img/PhotoSite/MyPosts.jpg',
+                description: 'My Posts'
+            },
+            {
+                url: './img/PhotoSite/Profile.jpg',
+                description: 'Profile'
+            }
+        ]
     }
 ];
 
