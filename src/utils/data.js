@@ -581,7 +581,7 @@ const projects = [
     {
       title: 'Photo Site',
       subTitle: 'Angular course project',
-      description: 'My project for the Angular course. This is a Web application where you can post you best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
+      description: 'My project for the Angular course. This is a Web application where you can post your best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
       codeUrl: 'https://github.com/mikegsCoder/Photo-Site',
       id: 'photo-site',
       builtWith: [
