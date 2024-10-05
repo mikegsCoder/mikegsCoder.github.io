@@ -344,6 +344,10 @@ const seCourses = {
           name: 'Angular - March 2024 to July 2024',
           url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Angular'
         },
+        {
+          name: 'VueJS - July 2024 to October 2024',
+          url: 'https://github.com/mikegsCoder/Self-Education/tree/main/VueJS'
+        },
     ]
 };
 
