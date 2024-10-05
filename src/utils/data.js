@@ -1,54 +1,65 @@
 const timeline = [
     {
         date: 'September 2020',
-        activities: ['Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
-            'Hello World!'],
+        activities: [
+            'Started a free Programming Basics course in C# out of curiosity. I was attracted by programming and I foud I\'m good at it and I like it!',
+            'Hello World!'
+        ],
         image: "hello-world.jpg",
         marginTop: '2.6rem'
     },
     {
         date: '2021',
-        activities: ['Programming Fundamentals with C#',
+        activities: [
+            'Programming Fundamentals with C#',
             'C# Advanced',
             'C# Object Oriented Programming',
             'Fundamentals in Mathematics',
             'Data Structures Fundamentals (with C#)',
             'Data Structures Advanced (with C#)',
             'MS SQL Server',
-            'Entity Framework Core'],
+            'Entity Framework Core'
+        ],
         image: "learning-coding.jpg",
         marginTop: '0rem'
     },
     {
         date: '2022',
-        activities: ['Algorithms Fundamentals with C#',
+        activities: [
+            'Algorithms Fundamentals with C#',
             'Algorithms Advanced with C#',
             'JavaScript Advanced',
             'JavaScript Applications',
             'HTML & CSS',
             'ReactJS',
             'ASP.NET Fundamentals',
-            'ASP.NET Advanced'],
+            'ASP.NET Advanced'
+        ],
         image: "coding-1.jpg",
         marginTop: '0rem'
     },
     {
         date: '2023',
-        activities: ['Windows Presentation Foundation',
+        activities: [
+            'Windows Presentation Foundation',
             'WPF project - Task Manager',
             'MongoDB with C#',
             'Design Patterns',
-            'JS Back-End'],
+            'JS Back-End'
+        ],
         image: "coding-2.jpg",
         marginTop: '4.45rem'
     },
     {
         date: '2024',
-        activities: ['TypeScript',
+        activities: [
+            'TypeScript',
             'Angular',
-            'Angular project - Photo Site'],
+            'Angular project - Photo Site',
+            'VueJS'
+        ],
         image: "coding-3.jpg",
-        marginTop: '7.4rem'
+        marginTop: '5.9rem'
     }
 ];
 
