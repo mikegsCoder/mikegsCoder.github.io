@@ -860,6 +860,11 @@ const devicons = [
         name: 'angular',
         image: './img/Devicons/angular.png',
         url: 'https://angular.io'
+    },
+    {
+      name: 'vuejs',
+      image: './img/Devicons/vuejs.svg',
+      url: 'https://vuejs.org'
     }
 ];
 
