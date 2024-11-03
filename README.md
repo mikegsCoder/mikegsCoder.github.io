@@ -9,6 +9,6 @@ My resume as Single Page Application.
 - Bootstrap
 - HTML5
 - CSS
-- JS
+- JavaScript
 - Lit-html
 - Page
