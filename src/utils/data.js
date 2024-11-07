@@ -56,10 +56,11 @@ const timeline = [
             'TypeScript',
             'Angular',
             'Angular project - Photo Site',
-            'VueJS'
+            'VueJS',
+            'VueJS project - Photo Site'
         ],
         image: "coding-3.jpg",
-        marginTop: '5.9rem'
+        marginTop: '4.5rem'
     }
 ];
 
@@ -595,13 +596,14 @@ const projects = [
     },
     {
       title: 'Photo Site',
-      subTitle: 'Angular course project',
-      description: 'My project for the Angular course. This is a Web application where you can post your best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
+      subTitle: 'Angular and VueJS course projects',
+      description: 'My projects for the Angular and VueJS courses. They are a Web applications where you can post your best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
       codeUrl: 'https://github.com/mikegsCoder/Photo-Site',
       id: 'photo-site',
       builtWith: [
-          'Angular',
-          'TypeScript',
+          'Angular and TypeSript for the Angular project',
+          'VueJS and JavaScript for the VueJS project',
+          'ExpressJS',
           'Mongo DB',
           'HTML 5',
           'CSS'
