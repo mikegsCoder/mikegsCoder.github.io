@@ -14,8 +14,8 @@ const workplaceCard = (workplace) => html`
 <hr class="m-2" />
 <div class="subheading mb-3">${workplace.name}
 
-    ${workplace.url.length > 0
-        ? html`(<a href="${workplace.url}" target="blank">eso.bg</a>)`
+    ${workplace.url
+        ? html`(<a href="${workplace.url}" target="blank">${workplace.company}</a>)`
         : nothing}
         
 </div>

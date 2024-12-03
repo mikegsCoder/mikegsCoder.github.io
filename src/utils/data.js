@@ -354,7 +354,24 @@ const seCourses = {
 
 const workplaces = [
     {
+        name: 'Self employed - Varna, Bulgaria',
+        company: 'self employed',
+        url: 'https://github.com/mikegsCoder/',
+        roles: [
+            {
+                name: 'Web developer',
+                identification: 'wdv',
+                responsibilities: [
+                    'Building various projects based on C#, JavaScript and TypeScript software technologies',
+                    'Developing SQL and NoSQL databases using MS SQL and MongoDB',
+                    'Implementing MVC and MVVM software architectural design patterns'
+                ]
+            }
+        ],
+    },
+    {
         name: 'Electricity System Operator - Varna, Bulgaria',
+        company: 'eso.bg',
         url: 'https://www.eso.bg/',
         roles: [
             {
