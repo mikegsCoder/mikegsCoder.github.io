@@ -54,7 +54,7 @@ const projectDescriptionCard = (project, padding) => html`
                     type="button"
                     class="btn btn-outline-primary btn-lg mb-5 mt-3"
                 >
-                    ${project.title}
+                    🌐 ${project.title}
                 </a>`
         : nothing
     }

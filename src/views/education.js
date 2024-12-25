@@ -71,7 +71,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
                         <p>
                             <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse"
                                 data-target="#nbuCourses" aria-expanded="false" aria-controls="nbuCourses">
-                                See Completed Courses &#x2195;&#xFE0F;
+                                See Completed Courses 📜
                             </button>
                         </p>
                         <div class="collapse" id="nbuCourses">
