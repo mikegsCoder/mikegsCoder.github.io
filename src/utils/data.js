@@ -450,7 +450,7 @@ const projects = [
             'CSS',
             'Font Awesome',
         ],
-        projectIcon: './img/ProjectsIcons/TravelDestinationsIcon.ico',
+        projectIcon: './img/TravelDestinations/TravelDestinationsIcon.ico',
         projectUrl: 'https://travel-destinations-88814.firebaseapp.com/',
         images: [
             {
@@ -508,7 +508,7 @@ const projects = [
             'CSS',
             'Font Awesome',
         ],
-        projectIcon: './img/ProjectsIcons/InteriorDesignIcon.ico',
+        projectIcon: './img/InteriorDesign/InteriorDesignIcon.ico',
         projectUrl: 'http://mikegscoderasp-001-site1.atempurl.com/',
         images: [
             {
@@ -628,7 +628,7 @@ const projects = [
           'HTML 5',
           'CSS'
       ],
-      projectIcon: './img/ProjectsIcons/PhotoSiteIcon.ico',
+      projectIcon: './img/PhotoSite/PhotoSiteIcon.ico',
       projectUrl: 'https://photo-site-ondu.onrender.com/',
       images: [
             {
