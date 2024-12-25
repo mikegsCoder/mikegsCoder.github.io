@@ -1,4 +1,4 @@
-import { html, nothing } from './lib.js';
+import { html } from './lib.js';
 
 export const projectsTemplate = (projects, title) => html` 
 <section class="resume-section" id="projects">
@@ -64,7 +64,14 @@ const projectDescriptionCard = (project, padding) => html`
                     }
                     ${project.title}
                 </a>`
-        : nothing
+        : html`<a 
+                    href="javascript:void(0)"
+                    type="button"
+                    class="btn btn-outline-primary btn-lg mb-5 mt-3"
+                >
+                    <p style="margin: 0;">💻 This project is not</p> 
+                    <p style="margin: 0;">a Web Application</p>
+                </a>`
     }
 </div>`;
 
