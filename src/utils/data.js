@@ -614,7 +614,7 @@ const projects = [
     {
       title: 'Photo Site',
       subTitle: 'Angular and VueJS course projects',
-      description: 'My projects for the Angular and VueJS courses. They are a Web applications where you can post your best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description.',
+      description: 'My projects for the Angular and VueJS courses. They are a Web applications where you can post your best outdoor photos and browse such photos posted by other users. Each post has title, keyword, location, date of creation, image URL and description. The Server and Vue.JS project are deployed on Render.',
       codeUrl: 'https://github.com/mikegsCoder/Photo-Site',
       id: 'photo-site',
       builtWith: [
@@ -625,7 +625,7 @@ const projects = [
           'HTML 5',
           'CSS'
       ],
-      projectUrl: '',
+      projectUrl: 'https://photo-site-ondu.onrender.com/',
       images: [
             {
                 url: './img/PhotoSite/HomePage.jpg',
