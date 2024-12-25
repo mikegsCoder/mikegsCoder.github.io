@@ -181,7 +181,7 @@ const certificates = [
 
 const diplomas = [
     {
-        img: 'img/Diplomas/Diploma-for-CSharp-Web-Developer.jpeg',
+        img: 'img/Diplomas/Diploma-for-Back-End-Software-Engineer-with-CSharp.jpeg',
         url: 'https://softuni.bg/certificates/details/153472/e10a1751'
     },
     {
