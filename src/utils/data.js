@@ -450,6 +450,7 @@ const projects = [
             'CSS',
             'Font Awesome',
         ],
+        projectIcon: './img/ProjectsIcons/TravelDestinationsIcon.ico',
         projectUrl: 'https://travel-destinations-88814.firebaseapp.com/',
         images: [
             {
@@ -507,6 +508,7 @@ const projects = [
             'CSS',
             'Font Awesome',
         ],
+        projectIcon: './img/ProjectsIcons/InteriorDesignIcon.ico',
         projectUrl: 'http://mikegscoderasp-001-site1.atempurl.com/',
         images: [
             {
@@ -559,6 +561,7 @@ const projects = [
             'MongoDbDriver and MongoDB for MongoDB version',
             'C#'
         ],
+        projectIcon: '',
         projectUrl: '',
         images: [
             {
@@ -625,6 +628,7 @@ const projects = [
           'HTML 5',
           'CSS'
       ],
+      projectIcon: './img/ProjectsIcons/PhotoSiteIcon.ico',
       projectUrl: 'https://photo-site-ondu.onrender.com/',
       images: [
             {

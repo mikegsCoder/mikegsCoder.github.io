@@ -54,7 +54,15 @@ const projectDescriptionCard = (project, padding) => html`
                     type="button"
                     class="btn btn-outline-primary btn-lg mb-5 mt-3"
                 >
-                    🌐 ${project.title}
+                    ${project.projectIcon
+                        ? html`<img
+                                  src="${project.projectIcon}"
+                                  alt="Project-Icon"
+                                  style="width: 1.2rem; heigth: 1.2rem; margin-top: -0.4rem;"
+                              />`
+                        : '🌐'
+                    }
+                    ${project.title}
                 </a>`
         : nothing
     }
