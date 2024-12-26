@@ -64,14 +64,13 @@ const projectDescriptionCard = (project, padding) => html`
                     }
                     ${project.title}
                 </a>`
-        : html`<a 
-                    href="javascript:void(0)"
-                    type="button"
+        : html`<div 
                     class="btn btn-outline-primary btn-lg mb-5 mt-3"
+                    style="cursor: auto !important;"
                 >
                     <p style="margin: 0;">💻 This project is not</p> 
                     <p style="margin: 0;">a Web Application</p>
-                </a>`
+                </div>`
     }
 </div>`;
 
