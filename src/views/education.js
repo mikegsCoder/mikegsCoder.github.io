@@ -15,8 +15,10 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
                         <h3 class="mb-0 text-left">Software University (<a href="https://softuni.bg/trainings/courses"
                                 target="blank">softuni.bg</a>)</h3>
                         <div class="mb-3"><span class="text-primary">2020 - 2023</span></div>
-                        <p>Average grade software engineering program: <b>6.00</b></p>
-                        <p>Average grade open courses: <b>5.99</b></p>
+                        <!-- <p>Average grade software engineering program: <b>6.00</b></p>
+                        <p>Average grade open courses: <b>5.99</b></p> -->
+                        <div>Software Engineer</div>
+                        <p>C# Full-Stack Developer</p>
                         <div style="font-size: 13px;">
 
                             <!-- C# -->
