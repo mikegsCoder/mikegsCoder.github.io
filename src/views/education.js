@@ -72,11 +72,11 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
                         <p>specialty: Electrical power plants, networks and systems</p>
                         <p>
                             <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse"
-                                data-target="#nbuCourses" aria-expanded="false" aria-controls="nbuCourses">
+                                data-target="#tuCourses" aria-expanded="false" aria-controls="tuCourses">
                                 See Completed Courses 📜
                             </button>
                         </p>
-                        <div class="collapse" id="nbuCourses">
+                        <div class="collapse" id="tuCourses">
                             <div class="card card-body text-left" style="font-size: 13px;">
                                 ${tuCourses.map(educationCardTU)}
                             </div>
