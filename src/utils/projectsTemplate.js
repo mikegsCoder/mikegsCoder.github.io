@@ -58,9 +58,9 @@ const projectDescriptionCard = (project, padding) => html`
                         ? html`<img
                                   src="${project.projectIcon}"
                                   alt="Project-Icon"
-                                  style="width: 1.2rem; heigth: 1.2rem; margin-top: -0.4rem;"
+                                  style="width: 1.2rem; heigth: 1.2rem; margin-top: -0.4rem; margin-right: 0.2rem;"
                               />`
-                        : '🌐'
+                        : html`<span style="font-size: 1.2rem;">🌐</span>`
                     }
                     ${project.title}
                 </a>`
