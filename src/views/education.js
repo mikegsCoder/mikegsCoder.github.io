@@ -69,7 +69,7 @@ const educationTemplate = (csCourses, jsCourses, tuCourses, seCourses) => html`
                         </div>
                         <!-- <p>Average grade: <b>5.50</b></p> -->
                         <div>Electrical Engineer</div>
-                        <p>specialty: Electrical power plants, networks and systems</p>
+                        <p>Electrical power plants, networks and systems</p>
                         <p>
                             <button class="btn btn-sm btn-outline-secondary" type="button" data-toggle="collapse"
                                 data-target="#tuCourses" aria-expanded="false" aria-controls="tuCourses">
