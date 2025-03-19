@@ -61,7 +61,15 @@ const timeline = [
         ],
         image: "coding-3.jpg",
         marginTop: '4.5rem'
-    }
+    },
+    {
+      date: '2025',
+      activities: [
+          'PostgreSQL'
+      ],
+      image: "coding-4.jpg",
+      marginTop: '10.4rem'
+  }
 ];
 
 const sentenceArr = [
