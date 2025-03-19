@@ -842,6 +842,11 @@ const devicons = [
         url: 'https://www.microsoft.com/en-us/sql-server'
     },
     {
+      name: 'postgresql',
+      image: './img/Devicons/postgresql.png',
+      url: 'https://www.postgresql.org'
+    },
+    {
         name: 'efcore',
         image: './img/Devicons/efcore.png',
         url: 'https://learn.microsoft.com/en-us/ef/core'
