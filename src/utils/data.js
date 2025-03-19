@@ -338,6 +338,10 @@ const seCourses = {
         {
             name: 'Design Patterns - July 2023 to August 2023',
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Design-Patterns'
+        },
+        {
+          name: 'PostgreSQL - Dec 2024 to March 2025',
+          url: 'https://github.com/mikegsCoder/Self-Education/tree/main/PostgreSQL'
         }
     ],
     jsCourses:[
