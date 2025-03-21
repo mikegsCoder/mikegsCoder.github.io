@@ -340,7 +340,7 @@ const seCourses = {
             url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Design-Patterns'
         },
         {
-          name: 'PostgreSQL - Dec 2024 to March 2025',
+          name: 'PostgreSQL - December 2024 to March 2025',
           url: 'https://github.com/mikegsCoder/Self-Education/tree/main/PostgreSQL'
         }
     ],
@@ -564,12 +564,13 @@ const projects = [
     {
         title: 'Task Manager',
         subTitle: 'Windows Presentation Foundation course project',
-        description: 'My project for the Windows Presentation Foundation and MongoDB with C# courses. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks.',
+        description: 'My project for the Windows Presentation Foundation and MongoDB with C# courses. This is a desktop application where you can register, login and manage your own tasks. Each task has category, status and collection of remarks. Additionally I implemented this application with SQLite.',
         codeUrl: 'https://github.com/mikegsCoder/Task-Manager',
         id: 'task-manager',
         builtWith: [
             'WPF',
             'EF-Core and MSSQL for MSSQL version',
+            'EF-Core and SQLite for SQLite version',
             'MongoDbDriver and MongoDB for MongoDB version',
             'C#'
         ],
