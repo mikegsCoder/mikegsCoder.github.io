@@ -570,6 +570,7 @@ const projects = [
         builtWith: [
             'WPF',
             'EF-Core and MSSQL for MSSQL version',
+            'EF-Core and PostgreSQL for PostgreSQL version',
             'EF-Core and SQLite for SQLite version',
             'MongoDbDriver and MongoDB for MongoDB version',
             'C#'
