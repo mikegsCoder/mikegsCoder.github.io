@@ -375,7 +375,7 @@ const workplaces = [
                 identification: 'wdv',
                 responsibilities: [
                     'Building various projects based on C#, JavaScript and TypeScript software technologies',
-                    'Developing SQL and NoSQL databases using MS SQL and MongoDB',
+                    'Developing SQL and NoSQL databases using MS-SQL, PostgreSQL and MongoDB',
                     'Implementing MVC and MVVM software architectural design patterns'
                 ]
             }
