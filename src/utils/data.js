@@ -65,10 +65,11 @@ const timeline = [
     {
       date: '2025',
       activities: [
-          'PostgreSQL'
+            'PostgreSQL',
+            'project - Weather App'
       ],
       image: "coding-4.jpg",
-      marginTop: '10.4rem'
+      marginTop: '9.0rem'
   }
 ];
 
