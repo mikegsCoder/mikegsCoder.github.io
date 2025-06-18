@@ -636,12 +636,12 @@ const projects = [
       codeUrl: 'https://github.com/mikegsCoder/Photo-Site',
       id: 'photo-site',
       builtWith: [
-          'Angular and TypeSript for the Angular project',
-          'VueJS and JavaScript for the VueJS project',
-          'ExpressJS',
-          'Mongo DB',
-          'HTML 5',
-          'CSS'
+            'Angular and TypeSript for the Angular project',
+            'VueJS and JavaScript for the VueJS project',
+            'ExpressJS',
+            'Mongo DB',
+            'HTML 5',
+            'CSS'
       ],
       projectIcon: './img/PhotoSite/PhotoSiteIcon.ico',
       projectUrl: 'https://photo-site-ondu.onrender.com/',
@@ -681,6 +681,58 @@ const projects = [
             {
                 url: './img/PhotoSite/Profile.jpg',
                 description: 'Profile'
+            }
+        ]
+    },
+    {
+      title: 'Weather App',
+      subTitle: 'Simple Weather App',
+      description: 'A simple Weather app built with different technologies. You can enter your city name and the application will provide you with weather data. If such a city does not exist you will be warned that invalid city name is provided. You can switch betwwen Light and Dark theme. In WPF project you have an option to export weather data in JSON or XML format.',
+      codeUrl: 'https://github.com/mikegsCoder/Weather-App',
+      id: 'weather-app',
+      builtWith: [
+            'Angular and TypeScript for the Angular project',
+            'VueJS and JavaScript for the VueJS project',
+            'React and TypeScript for the React project',
+            'Lit-HTML and JavaScript for the Lit-HTML project',
+            'Tailwind CSS and HTML for the Angular, VueJS, React and Lit-HTML projects',
+            'ASP and C# for the ASP project',
+            'WPF and C# for the WPF project'
+      ],
+      projectIcon: './img/WeatherApp/WeatherAppIcon.ico',
+      projectUrl: 'https://my-weather-app-vi51.onrender.com/',
+      images: [
+            {
+                url: './img/WeatherApp/MainWindowLight.jpg',
+                description: 'Main Window Light Theme'
+            },
+            {
+                url: './img/WeatherApp/MainWindowDark.jpg',
+                description: 'Main Window Dark Theme'
+            },
+            {
+                url: './img/WeatherApp/SearchResultLight.jpg',
+                description: 'Search Result Light Theme'
+            },
+            {
+                url: './img/WeatherApp/SearchResultDark.jpg',
+                description: 'Search Result Dark Theme'
+            },
+            {
+                url: './img/WeatherApp/NotFoundLight.jpg',
+                description: 'Not Found Light Theme'
+            },
+            {
+                url: './img/WeatherApp/NotFoundDark.jpg',
+                description: 'Not Found Dark Theme'
+            },
+            {
+                url: './img/WeatherApp/WeatherDataExport.jpg',
+                description: 'Weather Data Export'
+            },
+            {
+                url: './img/WeatherApp/ErrorBoundary.jpg',
+                description: 'React Error Boundary'
             }
         ]
     }
