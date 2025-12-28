@@ -66,7 +66,7 @@ const projectDescriptionCard = (project, padding) => html`
                 </a>`
         : html`<div 
                     class="btn btn-outline-primary btn-lg mb-5 mt-3"
-                    style="cursor: auto !important;"
+                    @click=${e => window.alert('This project is not a Web Application!')}
                 >
                     <p style="margin: 0;">💻 This project is not</p> 
                     <p style="margin: 0;">a Web Application</p>
