@@ -66,7 +66,7 @@ const projectDescriptionCard = (project, padding) => html`
                 </a>`
         : html`<div 
                     class="btn btn-outline-primary btn-lg mb-5 mt-3"
-                    @click=${e => window.alert('This project is not a Web Application!')}
+                    @click=${e => confirmWindowHandling(project.codeUrl)}
                 >
                     <p style="margin: 0;">💻 This project is not</p> 
                     <p style="margin: 0;">a Web Application</p>
@@ -135,3 +135,11 @@ const carouselCard = (className, image) => html`
 
 const carouselIndicatorsCard = (projectId, index, className) => html`
     <li data-target=${'#' + projectId + 'Carousel'} data-slide-to=${index} class=${className}></li>`;
+
+const confirmWindowHandling = (codeUrl) => {
+    const confirmed = window.confirm('This project is not a Web Application!\n\nIf you want to test it you have to download the source code.\nThen build the project and start it.\n\nClick "Ok" to open the source code page in a new tab.\nClick "Cancel" to stay here.');
+    if (confirmed)
+    {
+        window.open(codeUrl, '_blank');
+    };
+}
