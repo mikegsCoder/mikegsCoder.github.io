@@ -66,10 +66,12 @@ const timeline = [
       date: '2025',
       activities: [
             'PostgreSQL',
-            'project - Weather App'
+            'project - Weather App',
+            '.NET MAUI',
+            'MAUI project - Weather App'
       ],
       image: "coding-4.jpg",
-      marginTop: '9.0rem'
+      marginTop: '6.0rem'
   }
 ];
 
