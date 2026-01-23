@@ -345,6 +345,10 @@ const seCourses = {
         {
           name: 'PostgreSQL - December 2024 to March 2025',
           url: 'https://github.com/mikegsCoder/Self-Education/tree/main/PostgreSQL'
+        },
+        {
+          name: '.NET MAUI - July 2025 to November 2025',
+          url: 'https://github.com/mikegsCoder/Self-Education/tree/main/MAUI'
         }
     ],
     jsCourses:[
