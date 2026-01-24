@@ -918,6 +918,11 @@ const devicons = [
         image: './img/Devicons/wpf.png',
         url: 'https://learn.microsoft.com/en-us/dotnet/desktop/wpf'
     },
+        {
+        name: 'maui',
+        image: './img/Devicons/maui.png',
+        url: 'https://learn.microsoft.com/en-us/dotnet/maui'
+    },
     {
         name: 'asp',
         image: './img/Devicons/asp.png',
