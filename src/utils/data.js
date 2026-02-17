@@ -712,7 +712,8 @@ const projects = [
             'Tailwind CSS and HTML for the Angular, VueJS, React and Lit-HTML projects',
             'ASP and C# for the ASP project',
             'WPF and C# for the WPF project',
-            '.NET MAUI and C# for the MAUI project'
+            '.NET MAUI and C# for the MAUI project',
+            'NEXT and TypeScript for the NEXT project'
       ],
       projectIcon: './img/WeatherApp/WeatherAppIcon.ico',
       projectUrl: 'https://my-weather-app-vi51.onrender.com/',
