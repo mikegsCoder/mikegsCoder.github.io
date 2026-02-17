@@ -72,7 +72,15 @@ const timeline = [
       ],
       image: "coding-4.jpg",
       marginTop: '6.0rem'
-  }
+    },
+    {
+      date: '2026',
+      activities: [
+            'NEXT project - Weather App'
+      ],
+      image: "coding-5.jpg",
+      marginTop: '10.3rem'
+    }
 ];
 
 const sentenceArr = [
