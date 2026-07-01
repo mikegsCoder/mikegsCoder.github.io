@@ -76,10 +76,12 @@ const timeline = [
     {
       date: '2026',
       activities: [
-            'NEXT project - Weather App'
+            'NEXT project - Weather App',
+            'Blazor',
+            'Blazor project - Weather App'
       ],
       image: "coding-5.jpg",
-      marginTop: '10.3rem'
+      marginTop: '7.5rem'
     }
 ];
 
