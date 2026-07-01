@@ -359,6 +359,10 @@ const seCourses = {
         {
           name: '.NET MAUI - July 2025 to November 2025',
           url: 'https://github.com/mikegsCoder/Self-Education/tree/main/MAUI'
+        },
+        {
+          name: 'Blazor - February 2026 to June 2026',
+          url: 'https://github.com/mikegsCoder/Self-Education/tree/main/Blazor'
         }
     ],
     jsCourses:[
