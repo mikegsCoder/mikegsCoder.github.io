@@ -943,6 +943,11 @@ const devicons = [
         image: './img/Devicons/asp.png',
         url: 'https://learn.microsoft.com/en-us/aspnet/core'
     },
+        {
+        name: 'blazor',
+        image: './img/Devicons/blazor.png',
+        url: 'https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor'
+    },
     {
         name: 'git',
         image: './img/Devicons/git.svg',

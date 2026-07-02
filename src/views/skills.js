@@ -22,7 +22,7 @@ const skillsTemplate = (devicons, skills) => html`
 
 const deviconCard = (devicon) => html`
 <a href="${devicon.url}" target="_blank" rel="noreferrer"> 
-    <img src="${devicon.image}" alt="${devicon.name}" width="60" height="60"/> 
+    <img src="${devicon.image}" alt="${devicon.name}" width="60" height="60" style="margin-top: 5px;"/> 
 </a>`;
 
 const skillCard = (skill) => html`
