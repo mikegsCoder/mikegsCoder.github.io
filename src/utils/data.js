@@ -711,15 +711,16 @@ const projects = [
       codeUrl: 'https://github.com/mikegsCoder/Weather-App',
       id: 'weather-app',
       builtWith: [
+            'Tailwind CSS and HTML for the Angular, VueJS, React, ASP, Blazor and Lit-HTML projects',
             'Angular and TypeScript for the Angular project',
             'VueJS and JavaScript for the VueJS project',
             'React and TypeScript for the React project',
-            'Lit-HTML and JavaScript for the Lit-HTML project',
-            'Tailwind CSS and HTML for the Angular, VueJS, React and Lit-HTML projects',
+            'NEXT and TypeScript for the NEXT project',
             'ASP and C# for the ASP project',
+            'Blazor and C# for the Blazor project',
             'WPF and C# for the WPF project',
             '.NET MAUI and C# for the MAUI project',
-            'NEXT and TypeScript for the NEXT project'
+            'Lit-HTML and JavaScript for the Lit-HTML project'
       ],
       projectIcon: './img/WeatherApp/WeatherAppIcon.ico',
       projectUrl: 'https://my-weather-app-vi51.onrender.com/',
