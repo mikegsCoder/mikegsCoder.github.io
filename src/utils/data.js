@@ -78,10 +78,11 @@ const timeline = [
       activities: [
             'NEXT project - Weather App',
             'Blazor',
-            'Blazor project - Weather App'
+            'Blazor project - Weather App',
+            'Express project - Weather App'
       ],
       image: "coding-5.jpg",
-      marginTop: '7.5rem'
+      marginTop: '6.0rem'
     }
 ];
 
